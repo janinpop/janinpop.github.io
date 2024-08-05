@@ -11,26 +11,26 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Planetary and Universe Science, Université Côte d'Azur, 2017
+* M.S. in Astrophysics, Plasmas and Planets, Université Grenoble Alpes, 2014
+* B.S. in Fundamental Physics,  Université Grenoble Alpes, 2012
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
+* October 2024 (2 years): Post-doctoral researcher
+  * Laboratoire d'Astrophysique de Marseille, Marseille
   * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+  * Supervisor: Benoît Neichel, Morgan Gray
 
-* Fall 2015: Research Assistant
-  * Github University
+* January 2020 (2 years) : Post-doctoral researcher
+  * Institut des Sciences du Mouvement E.-J. Marey, Marseille
   * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+  * Supervisor: Guillaume Rao
 
-* Summer 2015: Research Assistant
-  * Github University
+* December 2017 (2 years): Post-doctoral researcher
+  * Laboratoire d'Astrophysique de Marseille, Marseille
   * Duties included: Tagging issues
-  * Supervisor: Professor Git
+  * Supervisor: Thierry Fusco, Benoit Neichel
   
 Skills
 ======
