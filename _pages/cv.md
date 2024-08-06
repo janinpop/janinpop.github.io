@@ -19,27 +19,30 @@ Work experience
 ======
 * October 2024 (2 years): Post-doctoral researcher
   * Laboratoire d'Astrophysique de Marseille, Marseille
-  * Duties includes: Updates and improvements to template
+  * Duties includes: 
   * Supervisor: Benoît Neichel, Morgan Gray
 
 * January 2020 (2 years) : Post-doctoral researcher
   * Institut des Sciences du Mouvement E.-J. Marey, Marseille
-  * Duties included: Merging pull requests
+  * Duties included: 
   * Supervisor: Guillaume Rao
 
 * December 2017 (2 years): Post-doctoral researcher
   * Laboratoire d'Astrophysique de Marseille, Marseille
-  * Duties included: Tagging issues
+  * Duties included: 
   * Supervisor: Thierry Fusco, Benoit Neichel
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Optical simulation
+  * Fourier optics
+  * Adaptive optics
+  * High-contrast imaging
+* Programmation
+  * Python
+  * Matlab
+  * R
+* Optics
 
 Publications
 ======

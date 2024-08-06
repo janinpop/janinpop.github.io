@@ -1,11 +1,11 @@
 ---
-title: "Teaching experience 2"
+title: "Geometrical Optics"
 collection: teaching
-type: "Workshop"
-permalink: /teaching/2015-spring-teaching-1
-venue: "University 1, Department"
+type: "Undergraduate lab sessions"
+permalink: /teaching/2015-spring-teaching-2
+venue: "Université Côte d'Azur, Physics Department"
 date: 2015-01-01
-location: "City, Country"
+location: "Nice, France"
 ---
 
 This is a description of a teaching experience. You can use markdown like any other post.
