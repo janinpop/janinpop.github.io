@@ -31,6 +31,11 @@ Work experience
   * Laboratoire d'Astrophysique de Marseille, Marseille
   * Duties included: 
   * Supervisor: Thierry Fusco, Benoit Neichel
+
+* September 2014 (3 years): Doctorate
+  * Laboratoire Lagrange, Observatoire de la Côte d'Azur, Nice
+  * Duties included: 
+  * Supervisor: Patrice Martinez, Marcel Carbillet
   
 Skills
 ======

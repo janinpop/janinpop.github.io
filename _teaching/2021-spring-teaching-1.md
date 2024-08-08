@@ -9,14 +9,3 @@ location: "Marseille, France"
 ---
 
 [Slides](/files/cm_stat.pdf)
-
-This is a description of a teaching experience. You can use markdown like any other post.
-
-Mean
-======
-
-Second order
-======
-
-Third order
-======

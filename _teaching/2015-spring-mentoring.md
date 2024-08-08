@@ -1,5 +1,5 @@
 ---
-title: "Tip-tilt mirror calibration"
+title: "Internship mentoring on tip-tilt mirror calibration"
 collection: teaching
 type: "Undergraduate mentoring"
 permalink: /teaching/2015-spring-mentoring
