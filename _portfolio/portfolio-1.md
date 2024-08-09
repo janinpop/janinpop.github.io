@@ -4,4 +4,6 @@ excerpt: "Creating skymap posters at a given time and location<br/><img src='/im
 collection: portfolio
 ---
 
-A Python program creates automatically skymap posters at a given time and location.
+A Python program I created to automatically create skymap posters at a given time and location. Feel free to ask for your own design 🪐
+
+<embed src="/files/explications_poster.pdf" type="application/pdf">

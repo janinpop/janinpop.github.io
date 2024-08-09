@@ -1,6 +1,6 @@
 ---
 title: "Europe van trip 2022"
-excerpt: "<img src='/images/portfolio_1.jpeg' width='400'>"
+excerpt: "A selection of pictures from a 1-year van trip around Europe<br><img src='/images/portfolio_1.jpeg' width='400'>"
 collection: portfolio
 ---
 
