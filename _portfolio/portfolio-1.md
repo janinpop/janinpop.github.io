@@ -1,6 +1,6 @@
 ---
 title: "Skymap"
-excerpt: "Creating skymap posters at a given time and location<br/><img src='/images/KennedySpaceCenterUnitedStates28.60483N80.64220W20071969.png' width='400'>"
+excerpt: "Creating skymap posters at a given time and location<br/><img src='/images/Apollo11lift-offLaunchPad39A-CapeCanaveral28.60828N80.60391W16071969.png' width='400'>"
 collection: portfolio
 ---
 
