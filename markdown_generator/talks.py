@@ -91,7 +91,7 @@ for row, item in talks.iterrows():
         md += "\n[More information here](" + item.talk_url + ")\n"
 
     if len(str(item.description)) > 3:
-        md += "\n" + html_escape(item.description) + "\n"
+        md += "\n" + item.description + "\n"
 
     md_filename = os.path.basename(md_filename)
     # print(md)
