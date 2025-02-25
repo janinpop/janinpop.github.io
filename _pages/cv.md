@@ -20,6 +20,7 @@ Work experience
 * **Differential piston measurement with Convolutional Neural Networks (CNN) for the ELT using focal plane imaging**\
 Post-doctoral researcher - October 2024 (1.5 years)
 Laboratoire d'Astrophysique de Marseille, Marseille
+
 Supervisor: Benoît Neichel, Morgan Gray
   * Development of a PSF simulator for the ELT incorporating differential piston effects
   * Training of Convolutional Neural Networks (CNN)
@@ -28,6 +29,7 @@ Supervisor: Benoît Neichel, Morgan Gray
 * **Development of a Reduction Pipeline for Satellite Trace Detection in Unistellar Telescopes**\
 Post-doctoral researcher - October 2024 (1.5 years)
 Laboratoire d'Astrophysique de Marseille, Marseille
+
 Supervisor: Benoît Neichel, Morgan Gray
   * Creation of an image simulator for Unistellar telescopes
 
