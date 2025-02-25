@@ -32,8 +32,8 @@ Supervisors: Benoît Neichel, Morgan Gray\
   * Creation of an image simulator for Unistellar telescopes
 
 * **Study of the Impact of Footwear on Signature Movement and Individual Variability**\
-Post-doctoral researcher - January 2020 (2 years)
-Institut des Sciences du Mouvement E.-J. Marey, Marseille
+Post-doctoral researcher - January 2020 (2 years)\
+Institut des Sciences du Mouvement E.-J. Marey, Marseille\
 Supervisor: Guillaume Rao
   * Principal Component Analysis
   * Machine Learning (SVM, CNN, LRP)
@@ -41,8 +41,8 @@ Supervisor: Guillaume Rao
   * Development of a Software for Shoe Selection Assistance for Decathlon
 
 * **Responsible for the Integration and Operations of the LOOPS Adaptive Optics Test Bench**\
-Post-doctoral researcher - December 2017 (2 years)
-Laboratoire d'Astrophysique de Marseille, Marseille
+Post-doctoral researcher - December 2017 (2 years)\
+Laboratoire d'Astrophysique de Marseille, Marseille\
 Supervisors: Thierry Fusco, Benoit Neichel
   * Study and Optimization of Wavefront Analyzers with Fourier Filtering
   * Generation of Phase Masks using a Spatial Light Modulator
@@ -52,7 +52,7 @@ Supervisors: Thierry Fusco, Benoit Neichel
 * **Active Correction of Pupil Discontinuities in Segmented Mirror Telescopes for High-Contrast Imaging and High Angular Resolution**\
 Doctorate - September 2014 (3 years)\
 [WINNER OF THE 2018 THESIS AWARD FROM THE FRENCH SOCIETY OF ASTRONOMY AND ASTROPHYSICS](https://sf2a.eu/website2023/prix_these/)\
-Laboratoire Lagrange, Observatoire de la Côte d'Azur, Nice
+Laboratoire Lagrange, Observatoire de la Côte d'Azur, Nice\
 Supervisors: Patrice Martinez, Marcel Carbillet
   * Numerical Simulations Using Fourier Optics in MATLAB
   * Optical Integration
