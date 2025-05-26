@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "👋 Hi — I'm Pierre Janin-Potiron"
+title: "Welcome to my personnal webpage"
 author_profile: true
 redirect_from: 
   - /about/
@@ -12,11 +12,11 @@ Whether I'm developing high-precision instruments or out trail running, climbing
 This site brings together my professional work and the things that keep me curious (and moving).  
 You’ll find:
 
-- 📝 [Research papers](https://docs.mathjax.org/en/latest/)
+- 📝 [Research papers](./publications/)
 - 🎤 [Talks and presentations](https://docs.mathjax.org/en/latest/)
 - ⚙️ [Side projects & hobbies](https://docs.mathjax.org/en/latest/)
 
-Want to know more? [Check out my CV](https://docs.mathjax.org/en/latest/), [visit my ORCID](https://orcid.org/0000-0000-0000-0000), or [get in touch](mailto:pierre.janinpotiron@gmail.com).
+Want to know more? [Check out my CV](https://docs.mathjax.org/en/latest/), or [get in touch](mailto:pierre.janinpotiron@gmail.com).
 
 ---
 
