@@ -34,6 +34,6 @@ Want to know more? [Check out my CV](./cv/), or [send me an email](mailto:pierre
     });
 </script>
 
----
+
 
 <video controls loop muted autoplay preload="auto" src="../files/closed_loop.mp4" title="Title" width="750"></video>
