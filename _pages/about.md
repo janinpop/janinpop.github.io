@@ -23,7 +23,7 @@ Want to know more? [Check out my CV](./cv/), or [send me an email](mailto:pierre
 <div id="quote-box" style="font-style: italic; margin-top: 2em;"></div>
 
 <script>
-  fetch('quotes.json')
+  fetch('./_pages/quotes.json')
     .then(response => response.json())
     .then(quotes => {
       const quote = quotes[Math.floor(Math.random() * quotes.length)];
