@@ -13,11 +13,25 @@ This site brings together my professional work and the things that keep me curio
 You’ll find:
 
 - 📝 [Research papers](./publications/)
-- 🎤 [Talks and presentations](https://docs.mathjax.org/en/latest/)
-- ⚙️ [Side projects & hobbies](https://docs.mathjax.org/en/latest/)
+- 🎤 [Talks and presentations](./talks/)
+- ⚙️ [Side projects & hobbies](./portfolio/)
 
-Want to know more? [Check out my CV](https://docs.mathjax.org/en/latest/), or [get in touch](mailto:pierre.janinpotiron@gmail.com).
+Want to know more? [Check out my CV](./cv/), or [send me an email](mailto:pierre.janinpotiron@gmail.com).
 
 ---
+
+<div id="quote-box" style="font-style: italic; margin-top: 2em;"></div>
+
+<script>
+  fetch('quotes.json')
+    .then(response => response.json())
+    .then(quotes => {
+      const quote = quotes[Math.floor(Math.random() * quotes.length)];
+      document.getElementById('quote-box').innerText = quote;
+    })
+    .catch(() => {
+      document.getElementById('quote-box').innerText = '“Keep looking up.” – Unknown';
+    });
+</script>
 
 <video controls loop muted autoplay preload="auto" src="../files/closed_loop.mp4" title="Title" width="750"></video>
