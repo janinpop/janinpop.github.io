@@ -20,18 +20,8 @@ Want to know more? [Check out my CV](./cv/), or [send me an email](mailto:pierre
 
 ---
 
-<div id="quote-box" style="font-style: italic; margin-top: 2em;"></div>
-
-<script>
-  fetch('./_pages/quotes.json')
-    .then(response => response.json())
-    .then(quotes => {
-      const quote = quotes[Math.floor(Math.random() * quotes.length)];
-      document.getElementById('quote-box').innerText = quote;
-    })
-    .catch(() => {
-      document.getElementById('quote-box').innerText = '“Keep looking up.” – Unknown';
-    });
-</script>
+```{python}
+print("Hello Python!")
+```
 
 <video controls loop muted autoplay preload="auto" src="../files/closed_loop.mp4" title="Title" width="750"></video>
