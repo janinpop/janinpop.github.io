@@ -1,23 +1,22 @@
 ---
 permalink: /
-title: "👋 Hi there — and welcome!"
+title: "👋 Hi — I'm Pierre Janin-Potiron"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-I'm **Pierre Janin-Poitron**, a post-doctoral researcher in instrumental astronomy with a passion for physics, computers, .
+I'm a post-doctoral researcher in **instrumental astronomy**, with a deep love for **physics**, **mathematics**, and **computers** — and an equally strong passion for **sport**.  
+Whether I'm developing high-precision instruments or out trail running, climbing, or on a bike, I’m always chasing performance, balance, and new challenges.
 
-This site is a home for my work and a few things I enjoy along the way.  
+This site brings together my professional work and the things that keep me curious (and moving).  
 You’ll find:
 
-- 📝 [My papers](./talks/)
-- 🎤 [Presentations and talks](/talks/)
-- 🎨 [Hobbies & side projects](/talks/)
+- 📝 [Research papers](/papers/)
+- 🎤 [Talks and presentations](/talks/)
+- ⚙️ [Side projects & hobbies](/portfolio/)
 
-Whether you're here to explore my work, find a collaborator, or just get a sense of who I am beyond the CV — I’m glad you stopped by.
-
-Feel free to [get in touch](mailto:pierre.janinpotiron@gmail.com) or check out [my CV](/cv/).
+Want to know more? [Check out my CV](./cv.pdf), [visit my ORCID](https://orcid.org/0000-0000-0000-0000), or [get in touch](mailto:pierr.janinpotiron@gmail.com).
 
 ---
 
