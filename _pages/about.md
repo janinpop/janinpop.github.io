@@ -23,16 +23,15 @@ Want to know more? [Check out my CV](./cv/), or [send me an email](mailto:pierre
 <div id="quote-box" style="font-style: italic; margin-top: 2em;"></div>
 
 <script>
-  const quotes = [
-    "“The most beautiful thing we can experience is the mysterious.” – Albert Einstein",
-    "“Somewhere, something incredible is waiting to be known.” – Carl Sagan",
-    "“Science is the poetry of reality.” – Richard Dawkins",
-    "“La connaissance s'acquiert par l'expérience, tout le reste n'est que de l'information.” – Albert Einstein",
-    "“The universe is under no obligation to make sense to you.” – Neil deGrasse Tyson"
-  ];
-
-  const quote = quotes[Math.floor(Math.random() * quotes.length)];
-  document.getElementById("quote-box").innerText = quote;
+  fetch('quotes.json')
+    .then(response => response.json())
+    .then(quotes => {
+      const quote = quotes[Math.floor(Math.random() * quotes.length)];
+      document.getElementById('quote-box').innerText = quote;
+    })
+    .catch(() => {
+      document.getElementById('quote-box').innerText = '“Keep looking up.” – Unknown';
+    });
 </script>
 
 <video controls loop muted autoplay preload="auto" src="../files/closed_loop.mp4" title="Title" width="750"></video>
