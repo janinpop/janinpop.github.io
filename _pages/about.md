@@ -12,11 +12,11 @@ Whether I'm developing high-precision instruments or out trail running, climbing
 This site brings together my professional work and the things that keep me curious (and moving).  
 You’ll find:
 
-- 📝 [Research papers](/papers/)
-- 🎤 [Talks and presentations](/talks/)
-- ⚙️ [Side projects & hobbies](/portfolio/)
+- 📝 [Research papers]()
+- 🎤 [Talks and presentations]()
+- ⚙️ [Side projects & hobbies]()
 
-Want to know more? [Check out my CV](./cv.pdf), [visit my ORCID](https://orcid.org/0000-0000-0000-0000), or [get in touch](mailto:pierr.janinpotiron@gmail.com).
+Want to know more? [Check out my CV](), [visit my ORCID](https://orcid.org/0000-0000-0000-0000), or [get in touch](mailto:pierre.janinpotiron@gmail.com).
 
 ---
 
