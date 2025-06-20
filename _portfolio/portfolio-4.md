@@ -1,6 +1,6 @@
 ---
-title: "Art & Science"
-excerpt: "Creating skymap posters at a given time and location<br/><img src='https://lestreilles.hypotheses.org/files/2025/04/petite-taille-365x500.jpeg' width='400'>"
+title: "Arts & Sciences seminar"
+excerpt: "L’outil, au croisement des arts et sciences<br/><img src='https://lestreilles.hypotheses.org/files/2025/04/petite-taille-365x500.jpeg' width='400'>"
 collection: portfolio
 ---
 
