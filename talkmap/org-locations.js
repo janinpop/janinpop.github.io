@@ -10,6 +10,11 @@ var addressPoints = [
     139.6343802
   ],
   [
+    "Nice, France",
+    43.7009358,
+    7.2683912
+  ],
+  [
     "Lake Arrowhead, California",
     34.2571715,
     -117.1908912
