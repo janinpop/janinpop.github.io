@@ -1,13 +1,18 @@
 var addressPoints = [
   [
+    "Grenoble, France",
+    45.1875602,
+    5.7357819
+  ],
+  [
     "Yokohama, Japan",
     35.4503381,
     139.6343802
   ],
   [
     "Lake Arrowhead, California",
-    34.257178100000004,
-    -117.19090593555377
+    34.2571715,
+    -117.1908912
   ],
   [
     "Qu\u00e9bec, Canada",
@@ -15,14 +20,19 @@ var addressPoints = [
     -71.8258668
   ],
   [
+    "Copenhagen, Denmark",
+    55.6867243,
+    12.5700724
+  ],
+  [
     "Marseille, France",
-    43.2961743,
-    5.3699525
+    43.2963986,
+    5.3777888
   ],
   [
     "Paris, France",
-    48.8588897,
-    2.3200410217200766
+    48.8534951,
+    2.3483915
   ],
   [
     "Firenze, Italy",
