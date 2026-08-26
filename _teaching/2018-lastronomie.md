@@ -7,5 +7,5 @@ venue: "L'Astronomie magazine"
 date: 2018-12-01
 location: "Marseille, France"
 ---
-
+<img src='https://boutique.saf-astronomie.fr/wp-content/uploads/2020/08/LAstronomie-123.jpg' width=400px>
 [Read article](/files/article_lastronomie.pdf)
