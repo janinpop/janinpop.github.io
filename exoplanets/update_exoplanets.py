@@ -50,6 +50,9 @@ COMPACT_COLUMNS = [
     "pl_insol",
     "st_spectype",
     "st_teff",
+    "st_rotp",
+    "st_rotperr1",
+    "st_rotperr2",
     "st_rad",
     "st_mass",
     "st_met",
@@ -66,7 +69,7 @@ HERE = Path(__file__).resolve().parent
 DATA_DIR = HERE / "data"
 
 STAR_KEYS = [
-    "st_spectype", "st_teff", "st_rad", "st_mass", "st_met", "sy_dist"
+    "st_spectype", "st_teff", "st_rotp", "st_rotperr1", "st_rotperr2", "st_rad", "st_mass", "st_met", "sy_dist"
 ]
 MIN_PLANET_KEYS = [
     "pl_name", "pl_orbper", "pl_orbsmax", "pl_orbeccen"

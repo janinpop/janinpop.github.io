@@ -8,18 +8,20 @@
 *{box-sizing:border-box}body{margin:0;color:var(--txt);font-family:Inter,system-ui,sans-serif;background:radial-gradient(circle at 12% 0,#18233b 0,transparent 28%),var(--bg)}
 .wrap{max-width:1420px;margin:auto;padding:28px}.head{display:flex;justify-content:space-between;align-items:end;gap:28px;margin-bottom:22px}.eyebrow{font:700 11px ui-monospace;letter-spacing:.15em;text-transform:uppercase;color:var(--b)}h1{font-size:clamp(38px,6vw,74px);line-height:.9;letter-spacing:-.055em;margin:8px 0 0}.intro{max-width:620px;color:var(--mut);line-height:1.55;font-size:14px}
 .tools{display:grid;grid-template-columns:minmax(260px,1fr) repeat(3,minmax(140px,auto));gap:10px;position:sticky;top:0;z-index:5;padding:12px 0;background:linear-gradient(var(--bg),rgba(7,9,18,.88),transparent);backdrop-filter:blur(14px)}input,select,button{font:inherit}.ctl{width:100%;border:1px solid var(--line);background:#0f1522;color:var(--txt);border-radius:11px;padding:11px 12px}.meta{display:flex;justify-content:space-between;color:var(--mut);font-size:12px;margin:2px 0 14px}.status{display:flex;align-items:center;gap:7px}.dot{width:8px;height:8px;border-radius:50%;background:#5c667b}.dot.ok{background:var(--ok);box-shadow:0 0 14px #7cdda7aa}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(245px,1fr));gap:13px}.card{background:linear-gradient(180deg,#131a2a,#0c111c);border:1px solid #8090b020;border-radius:17px;padding:16px;cursor:pointer;transition:.15s}.card:hover{transform:translateY(-3px);border-color:#90caff66}.top{display:flex;justify-content:space-between;gap:10px}.name{font-size:19px;font-weight:800;letter-spacing:-.025em}.host{font-size:12px;color:var(--mut);margin-top:3px}.tag{font:700 10px ui-monospace;text-transform:uppercase;border:1px solid var(--line);border-radius:999px;padding:6px 8px;height:max-content}.mini{height:88px;position:relative;margin:8px 0 10px;overflow:hidden;border-radius:10px;background:radial-gradient(circle at 50% 50%,#121a29 0,#080c14 68%)}.mini svg{width:100%;height:100%;display:block}.mini .orb{fill:none;stroke:#8ca4c940;stroke-width:.8}.mini .planetDot{fill:#a8d8ff}.mini .starCore{stroke:#ffffffaa;stroke-width:.35}.mini .starHalo{opacity:.28}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:7px}.stat{background:#0a0f19;border:1px solid #7080a020;border-radius:9px;padding:8px}.stat span{display:block;color:var(--mut);font-size:9px;text-transform:uppercase}.stat b{display:block;margin-top:3px;font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.more{text-align:center;padding:22px}.btn{border:1px solid var(--line);background:#111827;color:var(--txt);border-radius:10px;padding:10px 14px;cursor:pointer;font-weight:750}.btn.primary{border:0;background:linear-gradient(135deg,#d9ecff,#8bc7ff);color:#07101a}.btn.system{border-color:#7cdda766;background:#102019;color:#bff5d1}.btn[hidden]{display:none}.btn:disabled{opacity:.4;cursor:not-allowed}.pickactions{display:flex;gap:7px;margin:0 0 8px}.pickactions .btn{padding:7px 10px;font-size:11px}.siblings{display:grid;gap:7px}.pickrow{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:9px;align-items:center;background:#0a0f19;border:1px solid #7080a022;border-radius:10px;padding:8px 9px}.pickrow input{width:17px;height:17px;accent-color:#90caff}.pickname{border:0;background:transparent;color:#d7e3f6;text-align:left;padding:3px 0;cursor:pointer;font-weight:750;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.pickname.active{color:var(--b)}.pickperiod{font:700 10px ui-monospace;color:var(--mut);white-space:nowrap}.note{color:var(--mut);font-size:11px;line-height:1.5;margin:12px 0 30px}
-.modal{display:none;position:fixed;inset:0;z-index:20;background:#03060acc;padding:22px;overflow:auto;backdrop-filter:blur(12px)}.modal.open{display:block}.sheet{max-width:1210px;margin:auto;background:linear-gradient(180deg,#131a29,#0c111c);border:1px solid #95a5c538;border-radius:22px;overflow:hidden}.mh{display:flex;justify-content:space-between;gap:15px;padding:18px 20px;border-bottom:1px solid var(--line)}.mh h2{margin:0;font-size:29px}.x{width:40px;height:40px}.dg{display:grid;grid-template-columns:1.15fr .85fr}.viz{padding:18px;border-right:1px solid var(--line)}canvas{width:100%;display:block;background:#060810;border-radius:14px}#orbit{aspect-ratio:16/9}#spec{aspect-ratio:16/4;margin-top:10px}.listen{display:flex;gap:9px;align-items:center;flex-wrap:wrap;margin-top:12px}.listen small{color:var(--mut)}.vols{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:12px}.vctl{background:#0a0f19;border:1px solid #7080a022;border-radius:12px;padding:10px}.vtop{display:flex;justify-content:space-between;gap:8px;align-items:center;margin-bottom:7px}.vtop span{font-size:11px;color:#d6deef;font-weight:700}.vtop output{font:700 11px ui-monospace;color:var(--b)}.vctl input[type=range]{width:100%;accent-color:#90caff}.vctl.notes{grid-column:span 2}.vctl.notes input[type=text]{width:100%;border:1px solid var(--line);background:#0f1522;color:var(--txt);border-radius:9px;padding:9px 10px;font:600 12px ui-monospace,SFMono-Regular,Menlo,monospace;outline:none}.vctl.notes input[type=text]:focus{border-color:#90caff88}.info{padding:18px}.info h3{font-size:11px;text-transform:uppercase;letter-spacing:.12em;color:#d6deef;margin:4px 0 9px}.kvgrid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:17px}.kv{background:#0a0f19;border:1px solid #7080a022;border-radius:9px;padding:9px}.kv span{display:block;color:var(--mut);font-size:9px;text-transform:uppercase}.kv b{font-size:12px;display:block;margin-top:3px}.siblings{display:grid;gap:7px}.sib{border:1px solid var(--line);background:#0b111c;color:#d3dcf0;border-radius:999px;padding:7px 10px;cursor:pointer;font-size:11px}.sib.active{border-color:var(--b)}details{border-top:1px solid var(--line);padding:18px 20px}summary{cursor:pointer;font-weight:800}.raw{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:7px;max-height:420px;overflow:auto;margin-top:12px}.ri{background:#090e17;border:1px solid #7080a020;border-radius:8px;padding:8px}.ri code{display:block;color:#9eacc5;font-size:10px}.ri span{font-size:11px;overflow-wrap:anywhere}.empty{grid-column:1/-1;text-align:center;color:var(--mut);padding:80px 15px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(245px,1fr));gap:13px}.card{background:linear-gradient(180deg,#131a2a,#0c111c);border:1px solid #8090b020;border-radius:17px;padding:16px;cursor:pointer;transition:.15s}.card:hover{transform:translateY(-3px);border-color:#90caff66}
+.card.permalink-focus{border-color:#90caff;box-shadow:0 0 0 3px #90caff55,0 0 42px #90caff38;animation:permalinkPulse 2.2s ease}
+@keyframes permalinkPulse{0%,100%{transform:none}35%{transform:translateY(-4px) scale(1.012)}}.top{display:flex;justify-content:space-between;gap:10px}.name{font-size:19px;font-weight:800;letter-spacing:-.025em}.host{font-size:12px;color:var(--mut);margin-top:3px}.tag{font:700 10px ui-monospace;text-transform:uppercase;border:1px solid var(--line);border-radius:999px;padding:6px 8px;height:max-content}.mini{height:88px;position:relative;margin:8px 0 10px;overflow:hidden;border-radius:10px;background:radial-gradient(circle at 50% 50%,#121a29 0,#080c14 68%)}.mini svg{width:100%;height:100%;display:block}.mini .orb{fill:none;stroke:#8ca4c940;stroke-width:.8}.mini .planetDot{fill:#a8d8ff}.mini .starCore{stroke:#ffffffaa;stroke-width:.35}.mini .starHalo{opacity:.28}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:7px}.stat{background:#0a0f19;border:1px solid #7080a020;border-radius:9px;padding:8px}.stat span{display:block;color:var(--mut);font-size:9px;text-transform:uppercase}.stat b{display:block;margin-top:3px;font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.more{text-align:center;padding:22px}.btn{border:1px solid var(--line);background:#111827;color:var(--txt);border-radius:10px;padding:10px 14px;cursor:pointer;font-weight:750}.btn.primary{border:0;background:linear-gradient(135deg,#d9ecff,#8bc7ff);color:#07101a}.btn.system{border-color:#7cdda766;background:#102019;color:#bff5d1}.btn[hidden]{display:none}.btn:disabled{opacity:.4;cursor:not-allowed}.pickactions{display:flex;gap:7px;margin:0 0 8px}.pickactions .btn{padding:7px 10px;font-size:11px}.siblings{display:grid;gap:7px}.pickrow{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:9px;align-items:center;background:#0a0f19;border:1px solid #7080a022;border-radius:10px;padding:8px 9px}.pickrow input{width:17px;height:17px;accent-color:#90caff}.pickname{border:0;background:transparent;color:#d7e3f6;text-align:left;padding:3px 0;cursor:pointer;font-weight:750;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.pickname.active{color:var(--b)}.pickperiod{font:700 10px ui-monospace;color:var(--mut);white-space:nowrap}.note{color:var(--mut);font-size:11px;line-height:1.5;margin:12px 0 30px}
+.modal{display:none;position:fixed;inset:0;z-index:20;background:#03060acc;padding:22px;overflow:auto;backdrop-filter:blur(12px)}.modal.open{display:block}.sheet{max-width:1210px;margin:auto;background:linear-gradient(180deg,#131a29,#0c111c);border:1px solid #95a5c538;border-radius:22px;overflow:hidden}.mh{display:flex;justify-content:space-between;gap:15px;padding:18px 20px;border-bottom:1px solid var(--line);align-items:center}.mh h2{margin:0;font-size:29px}.mh-actions{display:flex;gap:7px;align-items:center;flex-wrap:wrap;justify-content:flex-end}.navbtn{min-width:42px;font-size:18px;padding:8px 12px}.permalink{text-decoration:none;white-space:nowrap}.x{width:40px;height:40px}.dg{display:grid;grid-template-columns:1.15fr .85fr}.viz{padding:18px;border-right:1px solid var(--line)}canvas{width:100%;display:block;background:#060810;border-radius:14px}#orbit{aspect-ratio:16/9}#spec{aspect-ratio:16/4;margin-top:10px}.listen{display:flex;gap:9px;align-items:center;flex-wrap:wrap;margin-top:12px}.listen small{color:var(--mut)}.vols{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:12px}.vctl{background:#0a0f19;border:1px solid #7080a022;border-radius:12px;padding:10px}.vtop{display:flex;justify-content:space-between;gap:8px;align-items:center;margin-bottom:7px}.vtop span{font-size:11px;color:#d6deef;font-weight:700}.vtop output{font:700 11px ui-monospace;color:var(--b)}.vctl input[type=range]{width:100%;accent-color:#90caff}.vctl.notes{grid-column:span 2}.vctl.notes input[type=text]{width:100%;border:1px solid var(--line);background:#0f1522;color:var(--txt);border-radius:9px;padding:9px 10px;font:600 12px ui-monospace,SFMono-Regular,Menlo,monospace;outline:none}.vctl.notes input[type=text]:focus{border-color:#90caff88}.info{padding:18px}.info h3{font-size:11px;text-transform:uppercase;letter-spacing:.12em;color:#d6deef;margin:4px 0 9px}.kvgrid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:17px}.kv{background:#0a0f19;border:1px solid #7080a022;border-radius:9px;padding:9px}.kv span{display:block;color:var(--mut);font-size:9px;text-transform:uppercase}.kv b{font-size:12px;display:block;margin-top:3px}.siblings{display:grid;gap:7px}.sib{border:1px solid var(--line);background:#0b111c;color:#d3dcf0;border-radius:999px;padding:7px 10px;cursor:pointer;font-size:11px}.sib.active{border-color:var(--b)}details{border-top:1px solid var(--line);padding:18px 20px}summary{cursor:pointer;font-weight:800}.raw{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:7px;max-height:420px;overflow:auto;margin-top:12px}.ri{background:#090e17;border:1px solid #7080a020;border-radius:8px;padding:8px}.ri code{display:block;color:#9eacc5;font-size:10px}.ri span{font-size:11px;overflow-wrap:anywhere}.empty{grid-column:1/-1;text-align:center;color:var(--mut);padding:80px 15px}
 @media(max-width:900px){.head{align-items:start;flex-direction:column}.tools{grid-template-columns:1fr 1fr}.tools .search{grid-column:1/-1}.dg{grid-template-columns:1fr}.viz{border-right:0;border-bottom:1px solid var(--line)}.vols{grid-template-columns:1fr 1fr}.vctl.time{grid-column:1/-1}.vctl.notes{grid-column:1/-1}}@media(max-width:520px){.vols{grid-template-columns:1fr}.vctl.time,.vctl.notes{grid-column:auto}}
 </style></head>
 <body><div class="wrap">
 <div class="head"><div><div class="eyebrow">NASA Exoplanet Archive · snapshot local × Web Audio</div><h1>Bestiaire<br>des exoplanètes</h1></div><div class="intro">Parcours les systèmes exoplanétaires confirmés comme un bestiaire orbital. Une seule fiche est affichée par étoile ; ouvre-la pour choisir les planètes à afficher et à écouter ensemble.</div></div>
-<div class="tools"><input id="search" class="ctl search" placeholder="Chercher un système : TRAPPIST, Proxima, Kepler…"><select id="classF" class="ctl"><option value="">Tous les systèmes</option><option value="single">1 planète</option><option value="multi">2–4 planètes</option><option value="rich">5 planètes ou plus</option></select><select id="tempF" class="ctl"><option value="">Toutes étoiles</option><option value="cool">Étoile froide (&lt; 3900 K)</option><option value="sunlike">Intermédiaire (3900–6000 K)</option><option value="hot">Étoile chaude (&gt; 6000 K)</option></select><select id="sort" class="ctl"><option value="name">Nom A → Z</option><option value="planets">Nombre de planètes</option><option value="distance">Distance</option><option value="temp">T étoile</option></select></div>
-<div class="meta"><span class="status"><i class="dot" id="dot"></i><span id="status">Connexion à l’archive NASA…</span></span><span id="count"></span></div><main class="grid" id="grid"></main><div class="more"><button id="more" class="btn" hidden>Afficher davantage</button></div><div class="note">Les systèmes sont regroupés par étoile hôte à partir de PSCompPars. Les filtres de classe et de température sélectionnent un système dès qu’au moins une de ses planètes correspond. Les valeurs orbitales manquantes sont remplacées par des valeurs neutres uniquement pour la sonification.</div>
+<div class="tools"><input id="search" class="ctl search" placeholder="Chercher un système : TRAPPIST, Proxima, Kepler…"><select id="classF" class="ctl"><option value="">Tous les systèmes</option><option value="single">1 planète</option><option value="multi">2–4 planètes</option><option value="rich">5 planètes ou plus</option></select><select id="tempF" class="ctl"><option value="">Toutes étoiles</option><option value="cool">Étoile froide (&lt; 3900 K)</option><option value="sunlike">Intermédiaire (3900–6000 K)</option><option value="hot">Étoile chaude (&gt; 6000 K)</option></select><select id="sort" class="ctl"><option value="name">Nom A → Z</option><option value="planets">Nombre de planètes</option><option value="distance">Distance</option><option value="temp">T étoile</option><option value="rotation">P rotation étoile</option></select></div>
+<div class="meta"><span class="status"><i class="dot" id="dot"></i><span id="status">Connexion à l’archive NASA…</span></span><span id="count"></span></div><main class="grid" id="grid"></main><div class="more"><button id="more" class="btn" hidden>Afficher davantage</button></div><div class="note">Les systèmes sont regroupés par étoile hôte à partir de PSCompPars. Les filtres de classe et de température sélectionnent un système dès qu’au moins une de ses planètes correspond. Une inclinaison orbitale manquante hérite de la médiane des inclinaisons mesurées du système. Si aucune inclinaison n’est connue, toutes les planètes du système utilisent la même vue neutre à 0°.</div>
 </div>
-<div class="modal" id="modal"><div class="sheet"><div class="mh"><div><div class="eyebrow" id="dk"></div><h2 id="title"></h2></div><button class="btn x" id="close">✕</button></div><div class="dg"><section class="viz"><canvas id="orbit"></canvas><canvas id="spec"></canvas><div class="listen"><button class="btn" id="listen" hidden>▶ Écouter cette planète</button><button class="btn primary" id="systemListen">◉ Écouter la sélection</button><button class="btn" id="reset">Réinitialiser l’orbite</button><small id="astate">Casque recommandé · HRTF</small></div><div class="vols"><div class="vctl"><div class="vtop"><span>Volume étoile</span><output id="starVolVal">15%</output></div><input id="starVol" type="range" min="0" max="100" value="15"></div><div class="vctl"><div class="vtop"><span>Volume planètes · master</span><output id="planetVolVal">90%</output></div><input id="planetVol" type="range" min="0" max="100" value="90"></div><div class="vctl time"><div class="vtop"><span>Compression temporelle</span><output id="yearScaleVal">1 an = 20 s</output></div><input id="yearScale" type="range" min="2" max="120" step="1" value="20" aria-label="Durée audio correspondant à une année réelle"></div><div class="vctl notes"><div class="vtop"><span>Style harmonique</span><output id="noteCountVal">8 notes · 45°</output></div><select id="progressionStyle" class="ctl" aria-label="Style de progression harmonique"><option value="trance">Trance / Techno</option><option value="minor">Mineur hypnotique</option><option value="major">Majeur lumineux</option><option value="suspended">Suspendu / spatial</option><option value="dorian">Dorien</option><option value="pentatonic">Pentatonique</option><option value="phrygian">Phrygien sombre</option><option value="custom">Personnalisé</option></select><div class="vtop" style="margin-top:9px"><span>Notes du motif</span><output id="periodPitchVal">P → transposition</output></div><input id="noteProgression" type="text" value="C4 E4 G3 B4 A4 G5 E4 D6" aria-label="Progression de notes, séparées par des espaces"></div><div class="vctl"><div class="vtop"><span>Angle de départ</span><output id="angleOffsetVal">0°</output></div><input id="angleOffset" type="range" min="0" max="359" step="1" value="0" aria-label="Angle de la première note"></div><div class="vctl"><div class="vtop"><span>Instrument</span><output id="instrumentVal">Piano</output></div><select id="instrumentStyle" class="ctl" aria-label="Instrument des planètes"><option value="piano">Piano</option><option value="violin">Violon</option><option value="rave">Synthé vénère</option><option value="pluck">Pluck</option><option value="organ">Orgue</option><option value="glass">Cloche / verre</option></select></div></div></section><aside class="info"><h3>Planète</h3><div class="kvgrid" id="pi"></div><h3>Étoile</h3><div class="kvgrid" id="si"></div><h3>Signature sonore</h3><div class="kvgrid" id="soundInfo"></div><h3>Planètes à sonifier</h3><div class="pickactions"><button class="btn" id="allPlanets" type="button">Toutes</button><button class="btn" id="noPlanets" type="button">Aucune</button></div><div class="siblings" id="siblings"></div></aside></div><details id="details"><summary>Paramètres disponibles dans le snapshot local</summary><div class="note">Les champs non vides proviennent du snapshot local. Le mode compact contient tous les paramètres utilisés par le bestiaire ; le mode --full conserve toute la ligne PSCompPars.</div><div class="raw" id="raw"><div class="ri"><span>Ouvre cette section pour charger les données.</span></div></div></details></div></div>
+<div class="modal" id="modal"><div class="sheet"><div class="mh"><div><div class="eyebrow" id="dk"></div><h2 id="title"></h2></div><div class="mh-actions"><button class="btn navbtn" id="prevSystem" type="button" aria-label="Système précédent" title="Système précédent">←</button><a class="btn permalink" id="permalink" href="#" target="_blank" rel="noopener" title="Ouvrir ce permalien dans un nouvel onglet">🔗 Permalien</a><button class="btn navbtn" id="nextSystem" type="button" aria-label="Système suivant" title="Système suivant">→</button><button class="btn x" id="close">✕</button></div></div><div class="dg"><section class="viz"><canvas id="orbit"></canvas><canvas id="spec"></canvas><div class="listen"><button class="btn" id="listen" hidden>▶ Écouter cette planète</button><button class="btn primary" id="systemListen">◉ Écouter la sélection</button><button class="btn" id="reset">Réinitialiser l’orbite</button><small id="astate" hidden></small></div><div class="vols"><div class="vctl"><div class="vtop"><span>Volume étoile</span><output id="starVolVal">75%</output></div><input id="starVol" type="range" min="0" max="100" value="75"></div><div class="vctl"><div class="vtop"><span>Volume planètes · master</span><output id="planetVolVal">75%</output></div><input id="planetVol" type="range" min="0" max="100" value="75"></div><div class="vctl time"><div class="vtop"><span>Compression temporelle</span><output id="yearScaleVal">1 an = 20 s</output></div><input id="yearScale" type="range" min="2" max="120" step="1" value="20" aria-label="Durée audio correspondant à une année réelle"></div></div></section><aside class="info"><h3>Planète</h3><div class="kvgrid" id="pi"></div><h3>Étoile</h3><div class="kvgrid" id="si"></div><h3>Signature sonore</h3><div class="kvgrid" id="soundInfo"></div><h3>Planètes à sonifier</h3><div class="pickactions"><button class="btn" id="allPlanets" type="button">Toutes</button><button class="btn" id="noPlanets" type="button">Aucune</button></div><div class="siblings" id="siblings"></div></aside></div><details id="details"><summary>Paramètres disponibles dans le snapshot local</summary><div class="note">Les champs non vides proviennent du snapshot local. Le mode compact contient tous les paramètres utilisés par le bestiaire ; le mode --full conserve toute la ligne PSCompPars.</div><div class="raw" id="raw"><div class="ri"><span>Ouvre cette section pour charger les données.</span></div></div></details></div></div>
 <script>
-(()=>{const DATA_INDEX='./data/index.json';const $=x=>document.getElementById(x),E={search:$('search'),classF:$('classF'),tempF:$('tempF'),sort:$('sort'),grid:$('grid'),more:$('more'),dot:$('dot'),status:$('status'),count:$('count'),modal:$('modal'),close:$('close'),dk:$('dk'),title:$('title'),pi:$('pi'),si:$('si'),soundInfo:$('soundInfo'),siblings:$('siblings'),details:$('details'),raw:$('raw'),listen:$('listen'),systemListen:$('systemListen'),allPlanets:$('allPlanets'),noPlanets:$('noPlanets'),reset:$('reset'),astate:$('astate'),starVol:$('starVol'),planetVol:$('planetVol'),starVolVal:$('starVolVal'),planetVolVal:$('planetVolVal'),yearScale:$('yearScale'),yearScaleVal:$('yearScaleVal'),progressionStyle:$('progressionStyle'),noteProgression:$('noteProgression'),noteCountVal:$('noteCountVal'),periodPitchVal:$('periodPitchVal'),angleOffset:$('angleOffset'),angleOffsetVal:$('angleOffsetVal'),instrumentStyle:$('instrumentStyle'),instrumentVal:$('instrumentVal'),orbit:$('orbit'),spec:$('spec')};let data=[],systems=[],view=[],shown=0,sel=null,rawFor=null,currentSystem=[],selectedNames=new Set(),detailCache=new Map(),simYears=0,lastSimTick=performance.now()/1000;let A={ctx:null,on:false,sm:null,planetBus:null,planetLP:null,harmonics:[],harmonicGains:[],roughOsc:null,roughGain:null,centerPan:null,leftPan:null,rightPan:null,centerGain:null,leftGain:null,rightGain:null,filters:[],gains:[],systemOn:false,systemVoices:[],systemPlanets:[]};const demo=[
+(()=>{const DATA_INDEX='./data/index.json';const $=x=>document.getElementById(x),E={search:$('search'),classF:$('classF'),tempF:$('tempF'),sort:$('sort'),grid:$('grid'),more:$('more'),dot:$('dot'),status:$('status'),count:$('count'),modal:$('modal'),close:$('close'),prevSystem:$('prevSystem'),nextSystem:$('nextSystem'),permalink:$('permalink'),dk:$('dk'),title:$('title'),pi:$('pi'),si:$('si'),soundInfo:$('soundInfo'),siblings:$('siblings'),details:$('details'),raw:$('raw'),listen:$('listen'),systemListen:$('systemListen'),allPlanets:$('allPlanets'),noPlanets:$('noPlanets'),reset:$('reset'),astate:$('astate'),starVol:$('starVol'),planetVol:$('planetVol'),starVolVal:$('starVolVal'),planetVolVal:$('planetVolVal'),yearScale:$('yearScale'),yearScaleVal:$('yearScaleVal'),orbit:$('orbit'),spec:$('spec')};let data=[],systems=[],view=[],shown=0,sel=null,rawFor=null,currentSystem=[],selectedNames=new Set(),detailCache=new Map(),activeSystem=null,openedFromPermalink=false,systemInclinationDeg=0,systemHasMeasuredInclination=false,timeScaleManual=false,timeScaleFastPeriod=null,simYears=0,lastSimTick=performance.now()/1000;let A={ctx:null,on:false,sm:null,planetBus:null,planetLP:null,harmonics:[],harmonicGains:[],roughOsc:null,roughGain:null,centerPan:null,leftPan:null,rightPan:null,centerGain:null,leftGain:null,rightGain:null,filters:[],gains:[],systemOn:false,systemVoices:[],systemPlanets:[]};const demo=[
 {pl_name:'TRAPPIST-1 b',hostname:'TRAPPIST-1',sy_pnum:7,discoverymethod:'Transit',disc_year:2016,pl_orbper:1.510876,pl_orbsmax:.01154,pl_orbeccen:.006,pl_orbincl:89.73,pl_rade:1.116,pl_bmasse:1.374,pl_dens:5.43,pl_eqt:400,st_spectype:'M8 V',st_teff:2566,st_rad:.119,st_mass:.09,sy_dist:12.43},
 {pl_name:'TRAPPIST-1 c',hostname:'TRAPPIST-1',sy_pnum:7,discoverymethod:'Transit',disc_year:2016,pl_orbper:2.421823,pl_orbsmax:.01580,pl_orbeccen:.007,pl_orbincl:89.78,pl_rade:1.097,pl_bmasse:1.308,pl_dens:5.45,pl_eqt:342,st_spectype:'M8 V',st_teff:2566,st_rad:.119,st_mass:.09,sy_dist:12.43},
 {pl_name:'TRAPPIST-1 d',hostname:'TRAPPIST-1',sy_pnum:7,discoverymethod:'Transit',disc_year:2017,pl_orbper:4.049610,pl_orbsmax:.02227,pl_orbeccen:.008,pl_orbincl:89.90,pl_rade:.788,pl_bmasse:.388,pl_dens:4.35,pl_eqt:288,st_spectype:'M8 V',st_teff:2566,st_rad:.119,st_mass:.09,sy_dist:12.43},
@@ -57,11 +59,11 @@ function filter(){
   let sort=E.sort.value;
   view.sort((a,b)=>{
     if(sort==='name')return a.hostname.localeCompare(b.hostname);
-    let av,bv;if(sort==='planets'){av=a.n;bv=b.n}else if(sort==='distance'){av=+a.rep.sy_dist;bv=+b.rep.sy_dist}else{av=+a.rep.st_teff;bv=+b.rep.st_teff}
+    let av,bv;if(sort==='planets'){av=a.n;bv=b.n}else if(sort==='distance'){av=+a.rep.sy_dist;bv=+b.rep.sy_dist}else if(sort==='rotation'){av=+a.rep.st_rotp;bv=+b.rep.st_rotp}else{av=+a.rep.st_teff;bv=+b.rep.st_teff}
     if(!isFinite(av)&&!isFinite(bv))return 0;if(!isFinite(av))return 1;if(!isFinite(bv))return-1;
     return sort==='planets'?bv-av:av-bv
   });
-  shown=0;E.grid.innerHTML='';more();E.count.textContent=view.length.toLocaleString('fr-FR')+' système'+(view.length>1?'s':'')
+  shown=0;E.grid.innerHTML='';more();E.count.textContent=view.length.toLocaleString('fr-FR')+' système'+(view.length>1?'s':'');if(activeSystem)updateSystemNavigation()
 }
 function starRGB(T){
   // Approximate apparent sRGB colour of a blackbody from effective temperature.
@@ -87,10 +89,18 @@ function miniatureSVG(sys){
   });
   return `<svg viewBox="0 0 220 88" role="img" aria-label="Architecture orbitale connue de ${safe(sys.hostname)}"><circle class="starHalo" cx="110" cy="44" r="11" fill="${col}"/><circle class="starCore" cx="110" cy="44" r="5.5" fill="${col}"/>${orbits}${dots}</svg>`
 }
+function systemDomId(hostname){
+  let h=2166136261;
+  for(const ch of String(hostname||'')){h^=ch.charCodeAt(0);h=Math.imul(h,16777619)}
+  return 'system-'+(h>>>0).toString(16)
+}
 function card(sys){
-  let d=document.createElement('article');d.className='card';let p=sys.rep,n=sys.n;
+  let d=document.createElement('article');d.className='card';d.id=systemDomId(sys.hostname);d.dataset.hostname=sys.hostname;let p=sys.rep,n=sys.n;
   d.innerHTML=`<div class="top"><div><div class="name">${safe(sys.hostname)}</div><div class="host">${n} planète${n>1?'s':''}${p.st_spectype?' · '+safe(p.st_spectype):''}</div></div><div class="tag">Système</div></div><div class="mini">${miniatureSVG(sys)}</div><div class="stats"><div class="stat"><span>Planètes</span><b>${n}</b></div><div class="stat"><span>T étoile</span><b>${val(p.st_teff,'K',0)}</b></div><div class="stat"><span>Distance</span><b>${val(p.sy_dist,'pc',2)}</b></div></div>`;
-  d.onclick=()=>openSystem(sys);return d
+  d.onclick=()=>{
+    const params=new URLSearchParams(location.search);
+    openSystem(sys,params.get('system')===sys.hostname)
+  };return d
 }
 function more(){
   if(!view.length){E.grid.innerHTML='<div class="empty">Aucun système ne correspond à ces filtres.</div>';E.more.hidden=true;return}
@@ -110,7 +120,14 @@ async function load(){
     data=demo;systems=demoSystems();E.dot.className='dot';
     E.status.textContent='Données locales introuvables · démonstration intégrée'
   }
-  filter()
+  restoreSoundControlsFromURL();
+  filter();
+  const wanted=new URLSearchParams(location.search).get('system');
+  if(wanted){
+    const norm=s=>String(s||'').trim().toLocaleLowerCase();
+    const sys=systems.find(s=>s.hostname===wanted)||systems.find(s=>norm(s.hostname)===norm(wanted));
+    if(sys)await openSystem(sys,true)
+  }
 }
 async function fetchSystemPlanets(sys){
   if(detailCache.has(sys.hostname))return detailCache.get(sys.hostname);
@@ -132,10 +149,189 @@ async function fetchSystemPlanets(sys){
   }
 }
 function kv(l,v){return`<div class="kv"><span>${safe(l)}</span><b>${safe(v)}</b></div>`}
+function hasMeasuredInclination(pl){
+  const v=pl?.pl_orbincl;
+  return v!==null&&v!==''&&v!==undefined&&Number.isFinite(Number(v))
+}
+function median(values){
+  const a=values.slice().sort((x,y)=>x-y),n=a.length;
+  if(!n)return null;
+  return n%2?a[(n-1)/2]:(a[n/2-1]+a[n/2])/2
+}
+function updateSystemInclination(pls){
+  const measured=pls.filter(hasMeasuredInclination).map(p=>Number(p.pl_orbincl));
+  systemHasMeasuredInclination=measured.length>0;
+  systemInclinationDeg=systemHasMeasuredInclination?median(measured):0
+}
+function effectiveInclinationDeg(pl){
+  return hasMeasuredInclination(pl)?Number(pl.pl_orbincl):systemInclinationDeg
+}
+function inclinationDisplay(pl){
+  if(hasMeasuredInclination(pl)){
+    return `${Number(pl.pl_orbincl).toLocaleString('fr-FR',{maximumFractionDigits:2})} °`
+  }
+  if(systemHasMeasuredInclination){
+    return `non mesurée · ${systemInclinationDeg.toLocaleString('fr-FR',{maximumFractionDigits:2})}° utilisé (plan du système)`
+  }
+  return `non mesurée · 0° utilisé (vue commune neutre)`
+}
+function soundURL(){
+  const u=new URL(window.location.href);
+  if(activeSystem)u.searchParams.set('system',activeSystem.hostname);
+  else u.searchParams.delete('system');
+  u.searchParams.delete('planet');
+  u.searchParams.delete('selection');
+  u.searchParams.delete('focus');
+  if(sel?.pl_name)u.searchParams.set('focus',sel.pl_name);
+  if(activeSystem){
+    if(selectedNames.size===0){
+      u.searchParams.set('selection','none')
+    }else if(selectedNames.size===currentSystem.length){
+      u.searchParams.set('selection','all')
+    }else{
+      u.searchParams.set('selection','custom');
+      currentSystem.filter(p=>selectedNames.has(p.pl_name)).forEach(p=>u.searchParams.append('planet',p.pl_name))
+    }
+  }
+  u.searchParams.set('starvol',E.starVol.value);
+  u.searchParams.set('planetvol',E.planetVol.value);
+  u.searchParams.set('year',E.yearScale.value);
+  u.searchParams.delete('spatial');
+  u.searchParams.set('sort',E.sort.value);
+  if(E.search.value.trim())u.searchParams.set('q',E.search.value.trim());else u.searchParams.delete('q');
+  if(E.classF.value)u.searchParams.set('class',E.classF.value);else u.searchParams.delete('class');
+  if(E.tempF.value)u.searchParams.set('temp',E.tempF.value);else u.searchParams.delete('temp');
+  if(activeSystem)u.hash=systemDomId(activeSystem.hostname);
+  return u
+}
+function updatePermalink(){
+  if(!E.permalink)return;
+  const u=soundURL();
+  E.permalink.href=u.href;
+  history.replaceState({},'',u);
+}
+function restoreSoundControlsFromURL(){
+  const p=new URLSearchParams(location.search);
+  const bounded=(name,el,min,max)=>{
+    if(!p.has(name))return;
+    const v=Number(p.get(name));
+    if(Number.isFinite(v))el.value=Math.max(min,Math.min(max,v))
+  };
+  bounded('starvol',E.starVol,0,100);
+  bounded('planetvol',E.planetVol,0,100);
+  const yearFromURL=Number(p.get('year'));
+  if(Number.isFinite(yearFromURL)&&yearFromURL>=2){
+    E.yearScale.max=String(Math.max(120,Math.ceil(yearFromURL*2)));
+    E.yearScale.value=String(yearFromURL)
+  }
+  const sort=p.get('sort');if(sort&&[...E.sort.options].some(o=>o.value===sort))E.sort.value=sort;
+  if(p.has('q'))E.search.value=p.get('q')||'';
+  if(p.has('class')&&[...E.classF.options].some(o=>o.value===p.get('class')))E.classF.value=p.get('class');
+  if(p.has('temp')&&[...E.tempF.options].some(o=>o.value===p.get('temp')))E.tempF.value=p.get('temp');
+  syncVolUI()
+}
+function fastestAudiblePeriod(){
+  let pool=currentSystem.filter(p=>selectedNames.has(p.pl_name));
+  if(!pool.length)pool=currentSystem;
+  const periods=pool.map(p=>+p.pl_orbper).filter(p=>Number.isFinite(p)&&p>0);
+  return periods.length?Math.min(...periods):null
+}
+function niceSliderMax(x){
+  if(!Number.isFinite(x)||x<=120)return 120;
+  const mag=Math.pow(10,Math.floor(Math.log10(x)));
+  return Math.ceil(x/mag*2)/2*mag
+}
+function adaptiveYearScale(){
+  const pmin=fastestAudiblePeriod();
+  if(!pmin)return{value:20,pmin:null,audioPeriod:null};
+
+  // Never run faster than the historical 20 s/year default.
+  // For compact systems, slow the clock until the fastest selected planet
+  // takes at least 2 seconds to complete one audible orbit.
+  const targetFastOrbit=2.0;
+  const value=Math.max(20,targetFastOrbit*365.25/pmin);
+  return{
+    value:Math.round(value),
+    pmin,
+    audioPeriod:value*pmin/365.25
+  }
+}
+function applyAdaptiveTimeScale(force=false){
+  if(timeScaleManual&&!force)return;
+  const a=adaptiveYearScale();
+  timeScaleManual=false;
+  timeScaleFastPeriod=a.pmin;
+  E.yearScale.max=String(niceSliderMax(Math.max(120,a.value*2)));
+  E.yearScale.value=String(a.value);
+  syncVolUI()
+}
+function systemIndexInView(sys){
+  return view.findIndex(s=>s.hostname===sys?.hostname)
+}
+function renderUntilSystem(sys,maxExtraBatches=100){
+  let idx=systemIndexInView(sys);
+  if(idx<0)return null;
+  let batches=0;
+  while(shown<=idx && shown<view.length && batches<maxExtraBatches){
+    more();batches++
+  }
+  return document.getElementById(systemDomId(sys.hostname))
+}
+function focusSystemCard(sys,{force=false,behavior='smooth'}={}){
+  if(!sys)return;
+  let el=document.getElementById(systemDomId(sys.hostname));
+
+  if(!el){
+    el=renderUntilSystem(sys)
+  }
+
+  // A shared permalink must always be able to return to the corresponding
+  // thumbnail. If filters somehow exclude it, fall back to an exact search.
+  if(!el&&force){
+    E.search.value=sys.hostname;
+    E.classF.value='';
+    E.tempF.value='';
+    filter();
+    el=renderUntilSystem(sys)
+  }
+
+  if(!el)return;
+  requestAnimationFrame(()=>{
+    el.scrollIntoView({behavior,block:'center',inline:'nearest'});
+    el.classList.remove('permalink-focus');
+    void el.offsetWidth;
+    el.classList.add('permalink-focus');
+    setTimeout(()=>el.classList.remove('permalink-focus'),2400)
+  })
+}
+function navList(){
+  return view.length?view:systems
+}
+function updateSystemNavigation(){
+  const list=navList();
+  if(!activeSystem||!list.length){
+    E.prevSystem.disabled=true;E.nextSystem.disabled=true;return
+  }
+  let i=list.findIndex(s=>s.hostname===activeSystem.hostname);
+  if(i<0)i=0;
+  const prev=list[(i-1+list.length)%list.length],next=list[(i+1)%list.length];
+  const disabled=list.length<2;
+  E.prevSystem.disabled=disabled;E.nextSystem.disabled=disabled;
+  E.prevSystem.title=disabled?'Aucun autre système':`Précédent : ${prev.hostname}`;
+  E.nextSystem.title=disabled?'Aucun autre système':`Suivant : ${next.hostname}`
+}
+async function navigateSystem(delta){
+  const list=navList();
+  if(!activeSystem||list.length<2)return;
+  let i=list.findIndex(s=>s.hostname===activeSystem.hostname);
+  if(i<0)i=0;
+  const next=list[(i+delta+list.length)%list.length];
+  await openSystem(next,false)
+}
 function renderPlanetDetails(){
   if(!sel)return;
-  E.pi.innerHTML=[kv('Planète',sel.pl_name||'—'),kv('Période',val(sel.pl_orbper,'jours',4)),kv('Demi-grand axe',val(sel.pl_orbsmax,'au',4)),kv('Excentricité',val(sel.pl_orbeccen,'',4)),kv('Inclinaison',val(sel.pl_orbincl,'°',2)),kv('Rayon',val(sel.pl_rade,'R⊕',3)),kv('Masse',val(sel.pl_bmasse,'M⊕',3)),kv('Densité',val(sel.pl_dens,'g/cm³',3)),kv('T équilibre',val(sel.pl_eqt,'K',0)),kv('Insolation',val(sel.pl_insol,'S⊕',3)),kv('Découverte',sel.disc_year?String(sel.disc_year)+' · '+(sel.discoverymethod||''):'—')].join('');
-  let snd=soundMap(sel),g0=gateAngles()[0],f0=planetGateFrequency(sel,g0);E.soundInfo.innerHTML=[kv('Mode','Progression orbitale'),kv('Instrument',instrumentName()),kv('Transposition par P',periodTransposeLabel(sel)),kv('1re note entendue',frequencyLabel(f0)+' · '+f0.toFixed(1)+' Hz'),kv('Masse utilisée',snd.mass.toFixed(2)+' M⊕'),kv('Volume relatif',snd.massGain.toFixed(2)+'×'),kv('Richesse / taille',Math.round(snd.timbreNorm*100)+' %'),kv('Battement',Math.min(6,snd.roughHz*.12).toFixed(1)+' Hz'),kv('Brillance',Math.round(snd.cutoff)+' Hz'),kv('Résonance',Math.round((.20+.38*snd.widthNorm)*1000)+' ms'),kv('Densité utilisée',snd.density.toFixed(2)+' g/cm³')].join('');syncVolUI();
+  E.pi.innerHTML=[kv('Planète',sel.pl_name||'—'),kv('Période',val(sel.pl_orbper,'jours',4)),kv('Demi-grand axe',val(sel.pl_orbsmax,'au',4)),kv('Excentricité',val(sel.pl_orbeccen,'',4)),kv('Inclinaison',inclinationDisplay(sel)),kv('Rayon',val(sel.pl_rade,'R⊕',3)),kv('Masse',val(sel.pl_bmasse,'M⊕',3)),kv('Densité',val(sel.pl_dens,'g/cm³',3)),kv('T équilibre',val(sel.pl_eqt,'K',0)),kv('Insolation',val(sel.pl_insol,'S⊕',3)),kv('Découverte',sel.disc_year?String(sel.disc_year)+' · '+(sel.discoverymethod||''):'—')].join('');
+  let snd=soundMap(sel);E.soundInfo.innerHTML=[kv('Mode','Synthé gras / métallique'),kv('Fréquence',snd.pitch.toFixed(1)+' Hz'),kv('Période orbitale',val(sel.pl_orbper,'jours',4)),kv('Masse utilisée',snd.mass.toFixed(2)+' M⊕'),kv('Volume relatif',snd.massGain.toFixed(2)+'×'),kv('Saleté ← excentricité',snd.hasEcc?`${Math.round(snd.dirt*100)} % · e=${snd.eccentricity.toFixed(3)}`:'— · e non mesurée'),kv('HRTF / inclinaison',`${effectiveInclinationDeg(sel).toLocaleString('fr-FR',{maximumFractionDigits:2})}° · hauteur ↔ profondeur`)].join('');syncVolUI();
   rawFor=null;E.details.open=false;E.raw.innerHTML='<div class="ri"><span>Ouvre cette section pour charger les données de '+safe(sel.pl_name)+'.</span></div>';
   E.siblings.querySelectorAll('.pickname').forEach(b=>b.classList.toggle('active',b.dataset.n===sel.pl_name))
 }
@@ -143,29 +339,98 @@ function selectedCount(){return systemMembers().length}
 function updateSelectionButton(){
   let n=selectedCount();E.systemListen.disabled=n===0;
   if(!A.systemOn)E.systemListen.textContent=`◉ Écouter la sélection (${n})`;
-  E.astate.textContent=n?`${n} planète${n>1?'s':''} sélectionnée${n>1?'s':''} · notes déclenchées par angle · HRTF`:'Sélectionne au moins une planète'
+  E.astate.textContent=''
 }
 function renderPicker(){
   E.siblings.innerHTML=currentSystem.map(p=>`<div class="pickrow"><input type="checkbox" data-n="${safe(p.pl_name)}" ${selectedNames.has(p.pl_name)?'checked':''} aria-label="Inclure ${safe(p.pl_name)}"><button type="button" class="pickname ${p.pl_name===sel.pl_name?'active':''}" data-n="${safe(p.pl_name)}">${safe(p.pl_name)}</button><span class="pickperiod">${val(p.pl_orbper,'j',3)}</span></div>`).join('');
   E.siblings.querySelectorAll('input[type=checkbox]').forEach(cb=>cb.addEventListener('change',()=>{
     cb.checked?selectedNames.add(cb.dataset.n):selectedNames.delete(cb.dataset.n);
-    if(A.systemOn){stopSystem();if(selectedCount())startSystem()}updateSelectionButton()
+    if(!timeScaleManual)applyAdaptiveTimeScale(true);
+    if(A.systemOn){stopSystem();if(selectedCount())startSystem()}updateSelectionButton();updatePermalink()
   }));
-  E.siblings.querySelectorAll('.pickname').forEach(b=>b.addEventListener('click',()=>{let p=currentSystem.find(x=>x.pl_name===b.dataset.n);if(p){sel=p;renderPlanetDetails()}}));
+  E.siblings.querySelectorAll('.pickname').forEach(b=>b.addEventListener('click',()=>{let p=currentSystem.find(x=>x.pl_name===b.dataset.n);if(p){sel=p;renderPlanetDetails();updatePermalink()}}));
   updateSelectionButton()
 }
-async function openSystem(sys){
+async function openSystem(sys,restoreFromURL=false){
   if(A.on)stop();if(A.systemOn)stopSystem();
-  let autoplayReady=false;
-  try{if(!A.ctx)build();if(A.ctx.state==='suspended')await A.ctx.resume();autoplayReady=A.ctx.state==='running'}catch(e){console.warn('Audio autoplay unavailable',e)}
-  E.modal.classList.add('open');document.body.style.overflow='hidden';E.title.textContent=sys.hostname;E.dk.textContent=`SYSTÈME · ${sys.n} planète${sys.n>1?'s':''}`;
-  E.siblings.innerHTML='<div class="ri"><span>Chargement des planètes depuis le snapshot local…</span></div>';E.pi.innerHTML='';E.soundInfo.innerHTML='';
-  let p=sys.rep;E.si.innerHTML=[kv('Type spectral',p.st_spectype||'—'),kv('Couleur approx.',starRGB(p.st_teff)),kv('T effective',val(p.st_teff,'K',0)),kv('Rayon',val(p.st_rad,'R☉',3)),kv('Masse',val(p.st_mass,'M☉',3)),kv('[Fe/H]',val(p.st_met,'dex',3)),kv('Distance',val(p.sy_dist,'pc',2))].join('');
-  try{currentSystem=(await fetchSystemPlanets(sys)).sort((a,b)=>(+a.pl_orbper||1e99)-(+b.pl_orbper||1e99))}catch(e){currentSystem=[];E.siblings.innerHTML='<div class="ri"><span>Impossible de charger ce système.</span></div>';return}
-  selectedNames=new Set(currentSystem.map(p=>p.pl_name));sel=currentSystem[0];rawFor=null;E.details.open=false;
-  let star=currentSystem.find(x=>x.st_teff||x.st_spectype)||p;E.si.innerHTML=[kv('Type spectral',star.st_spectype||'—'),kv('Couleur approx.',starRGB(star.st_teff)),kv('T effective',val(star.st_teff,'K',0)),kv('Rayon',val(star.st_rad,'R☉',3)),kv('Masse',val(star.st_mass,'M☉',3)),kv('[Fe/H]',val(star.st_met,'dex',3)),kv('Distance',val(star.sy_dist,'pc',2))].join('');
+  if(restoreFromURL)openedFromPermalink=true;
+  activeSystem=sys;
+  updateSystemNavigation();
+
+  // Open the UI immediately. Never let WebAudio autoplay policy block the modal.
+  E.modal.classList.add('open');
+  document.body.style.overflow='hidden';
+  E.title.textContent=sys.hostname;
+  E.dk.textContent=`SYSTÈME · ${sys.n} planète${sys.n>1?'s':''}`;
+  E.siblings.innerHTML='<div class="ri"><span>Chargement des planètes depuis le snapshot local…</span></div>';
+  E.pi.innerHTML='';E.soundInfo.innerHTML='';
+
+  // Only try to unlock audio when this function was launched by a real user
+  // interaction. A pasted permalink has no user activation, and resume() can
+  // otherwise remain pending indefinitely in some browsers.
+  const userInitiated=navigator.userActivation?navigator.userActivation.isActive:!restoreFromURL;
+  let audioReadyPromise=Promise.resolve(false);
+  if(userInitiated){
+    try{
+      if(!A.ctx)build();
+      if(A.ctx.state==='running'){
+        audioReadyPromise=Promise.resolve(true)
+      }else if(A.ctx.state==='suspended'){
+        audioReadyPromise=A.ctx.resume().then(()=>A.ctx.state==='running').catch(()=>false)
+      }
+    }catch(e){
+      console.warn('Audio unlock unavailable',e)
+    }
+  }
+  let p=sys.rep;E.si.innerHTML=[kv('Type spectral',p.st_spectype||'—'),kv('Couleur approx.',starRGB(p.st_teff)),kv('T effective',val(p.st_teff,'K',0)),kv('P rotation',val(p.st_rotp,'j',2)),kv('Rayon',val(p.st_rad,'R☉',3)),kv('Masse',val(p.st_mass,'M☉',3)),kv('[Fe/H]',val(p.st_met,'dex',3)),kv('Distance',val(p.sy_dist,'pc',2))].join('');
+  try{currentSystem=(await fetchSystemPlanets(sys)).sort((a,b)=>(+a.pl_orbper||1e99)-(+b.pl_orbper||1e99))}catch(e){currentSystem=[];systemInclinationDeg=0;systemHasMeasuredInclination=false;E.siblings.innerHTML='<div class="ri"><span>Impossible de charger ce système.</span></div>';return}
+  updateSystemInclination(currentSystem);
+  selectedNames=new Set(currentSystem.map(p=>p.pl_name));
+  if(restoreFromURL){
+    const params=new URLSearchParams(location.search);
+    if(params.get('system')===sys.hostname){
+      const mode=params.get('selection');
+      if(mode==='none'){
+        selectedNames.clear()
+      }else if(mode==='custom'){
+        const requested=params.getAll('planet');
+        const valid=new Set(currentSystem.map(p=>p.pl_name));
+        selectedNames=new Set(requested.filter(n=>valid.has(n)))
+      }
+    }
+  }
+  let focusName=null;
+  if(restoreFromURL){
+    const params=new URLSearchParams(location.search);
+    if(params.get('system')===sys.hostname)focusName=params.get('focus')
+  }
+  sel=(focusName&&currentSystem.find(p=>p.pl_name===focusName))
+      ||currentSystem.find(p=>selectedNames.has(p.pl_name))
+      ||currentSystem[0];
+
+  const urlParams=new URLSearchParams(location.search);
+  const hasPermalinkYear=restoreFromURL&&urlParams.get('system')===sys.hostname&&Number.isFinite(Number(urlParams.get('year')));
+  if(hasPermalinkYear){
+    timeScaleManual=true;
+    timeScaleFastPeriod=fastestAudiblePeriod();
+    const y=Math.max(2,Number(urlParams.get('year')));
+    E.yearScale.max=String(niceSliderMax(Math.max(120,y*2)));
+    E.yearScale.value=String(y);
+    syncVolUI()
+  }else{
+    timeScaleManual=false;
+    applyAdaptiveTimeScale(true)
+  }
+
+  rawFor=null;E.details.open=false;
+  let star=currentSystem.find(x=>x.st_teff||x.st_spectype)||p;E.si.innerHTML=[kv('Type spectral',star.st_spectype||'—'),kv('Couleur approx.',starRGB(star.st_teff)),kv('T effective',val(star.st_teff,'K',0)),kv('P rotation',val(star.st_rotp,'j',2)),kv('Rayon',val(star.st_rad,'R☉',3)),kv('Masse',val(star.st_mass,'M☉',3)),kv('[Fe/H]',val(star.st_met,'dex',3)),kv('Distance',val(star.sy_dist,'pc',2)),kv('Plan orbital utilisé',systemHasMeasuredInclination?`${systemInclinationDeg.toLocaleString('fr-FR',{maximumFractionDigits:2})}° · médiane des inclinaisons mesurées`:'0° · aucune inclinaison mesurée')].join('');
   E.dk.textContent=`SYSTÈME · ${currentSystem.length} planète${currentSystem.length>1?'s':''}`;renderPicker();renderPlanetDetails();simYears=0;lastSimTick=performance.now()/1000;
-  if(autoplayReady&&selectedCount())startSystem();
+  updateSystemNavigation();updatePermalink();
+
+  // Optional autoplay after an actual click, but never block permalink opening.
+  audioReadyPromise.then(ready=>{
+    if(ready&&activeSystem===sys&&E.modal.classList.contains('open')&&selectedCount()&&!A.systemOn)startSystem()
+  });
 }
 async function raw(){
   if(!sel||rawFor===sel.pl_name)return;
@@ -173,15 +438,19 @@ async function raw(){
   const ent=Object.entries(sel).filter(([k,v])=>v!==null&&v!==''&&v!==undefined);
   E.raw.innerHTML=ent.map(([k,v])=>`<div class="ri"><code>${safe(k)}</code><span>${safe(v)}</span></div>`).join('')
 }
-function close(){stop();stopSystem();E.modal.classList.remove('open');document.body.style.overflow=''}E.close.onclick=close;E.modal.onclick=e=>{if(e.target===E.modal)close()};E.details.ontoggle=()=>{if(E.details.open)raw()};
-const oc=E.orbit.getContext('2d'),sc=E.spec.getContext('2d'),H=6.62607015e-34,C=299792458,K=1.380649e-23;function planck(l,T){l*=1e-9;let x=H*C/(l*K*T);return x>700?0:(2*H*C*C)/Math.pow(l,5)/(Math.exp(x)-1)}function kepler(M,e){let z=M;for(let i=0;i<8;i++)z-=(z-e*Math.sin(z)-M)/(1-e*Math.cos(z));return z}function parFor(pl){let p=pl||demo[0],snd=soundMap(p);return{source:p,T:+p.st_teff||5772,P:+p.pl_orbper||365.25,e:Math.min(.9,Math.max(0,+p.pl_orbeccen||0)),inc:(+p.pl_orbincl||0)*Math.PI/180,snd}}function par(){return parFor(sel||demo[0])}function namePhase(name){let h=2166136261;for(const ch of String(name||'')){h^=ch.charCodeAt(0);h=Math.imul(h,16777619)}return ((h>>>0)%100000)/100000*2*Math.PI}function yearSeconds(){return Math.max(2,+E.yearScale.value||20)}function orb(t,p,extraPhase=0){let ap=yearSeconds()*p.P/365.25,U=2*Math.PI*simYears*365.25/p.P+extraPhase,M=((U%(2*Math.PI))+2*Math.PI)%(2*Math.PI);let z=kepler(M,p.e),nu=2*Math.atan2(Math.sqrt(1+p.e)*Math.sin(z/2),Math.sqrt(1-p.e)*Math.cos(z/2)),r=1-p.e*Math.cos(z),x=r*Math.cos(nu),y=r*Math.sin(nu)*Math.cos(p.inc),zz=r*Math.sin(nu)*Math.sin(p.inc);return{x,y,z:zz,r,ap,nu,M,U}}function fit(c,x){let d=Math.min(2,devicePixelRatio||1),r=c.getBoundingClientRect(),w=Math.round(r.width*d),h=Math.round(r.height*d);if(c.width!==w||c.height!==h){c.width=w;c.height=h}x.setTransform(d,0,0,d,0,0);return{w:r.width,h:r.height}}
+function close(){
+  stop();stopSystem();E.modal.classList.remove('open');document.body.style.overflow='';
+  openedFromPermalink=false
+}
+E.close.onclick=close;E.modal.onclick=e=>{if(e.target===E.modal)close()};E.details.ontoggle=()=>{if(E.details.open)raw()};
+const oc=E.orbit.getContext('2d'),sc=E.spec.getContext('2d'),H=6.62607015e-34,C=299792458,K=1.380649e-23;function planck(l,T){l*=1e-9;let x=H*C/(l*K*T);return x>700?0:(2*H*C*C)/Math.pow(l,5)/(Math.exp(x)-1)}function kepler(M,e){let z=M;for(let i=0;i<8;i++)z-=(z-e*Math.sin(z)-M)/(1-e*Math.cos(z));return z}function parFor(pl){let p=pl||demo[0],snd=soundMap(p);return{source:p,T:+p.st_teff||5772,P:+p.pl_orbper||365.25,e:Math.min(.9,Math.max(0,+p.pl_orbeccen||0)),inc:effectiveInclinationDeg(p)*Math.PI/180,snd}}function par(){return parFor(sel||demo[0])}function namePhase(name){let h=2166136261;for(const ch of String(name||'')){h^=ch.charCodeAt(0);h=Math.imul(h,16777619)}return ((h>>>0)%100000)/100000*2*Math.PI}function yearSeconds(){return Math.max(2,+E.yearScale.value||20)}function orb(t,p,extraPhase=0){let ap=yearSeconds()*p.P/365.25,U=2*Math.PI*simYears*365.25/p.P+extraPhase,M=((U%(2*Math.PI))+2*Math.PI)%(2*Math.PI);let z=kepler(M,p.e),nu=2*Math.atan2(Math.sqrt(1+p.e)*Math.sin(z/2),Math.sqrt(1-p.e)*Math.cos(z/2)),r=1-p.e*Math.cos(z),x=r*Math.cos(nu),y=r*Math.sin(nu)*Math.cos(p.inc),zz=r*Math.sin(nu)*Math.sin(p.inc);return{x,y,z:zz,r,ap,nu,M,U}}function fit(c,x){let d=Math.min(2,devicePixelRatio||1),r=c.getBoundingClientRect(),w=Math.round(r.width*d),h=Math.round(r.height*d);if(c.width!==w||c.height!==h){c.width=w;c.height=h}x.setTransform(d,0,0,d,0,0);return{w:r.width,h:r.height}}
 function drawO(p,o){let{w,h}=fit(E.orbit,oc);oc.fillStyle='#060810';oc.fillRect(0,0,w,h);for(let i=0;i<60;i++){oc.fillStyle='#ffffff48';oc.fillRect((i*173)%w,(i*i*37)%h,1,1)}let cx=w/2,cy=h/2,sz=Math.min(w,h)*.31/(1+p.e);oc.beginPath();for(let j=0;j<=200;j++){let M=2*Math.PI*j/200,z=kepler(M,p.e),nu=2*Math.atan2(Math.sqrt(1+p.e)*Math.sin(z/2),Math.sqrt(1-p.e)*Math.cos(z/2)),r=1-p.e*Math.cos(z),x=r*Math.cos(nu),y=r*Math.sin(nu)*Math.cos(p.inc);j?oc.lineTo(cx+x*sz,cy-y*sz):oc.moveTo(cx+x*sz,cy-y*sz)}oc.strokeStyle='#90caff55';oc.stroke();let scol=starRGB(p.T),g=oc.createRadialGradient(cx,cy,1,cx,cy,24);g.addColorStop(0,'white');g.addColorStop(.28,scol);g.addColorStop(1,'rgba(0,0,0,0)');oc.fillStyle=g;oc.beginPath();oc.arc(cx,cy,24,0,Math.PI*2);oc.fill();oc.fillStyle='#a6d7ff';oc.shadowBlur=14;oc.shadowColor='#90caff';oc.beginPath();oc.arc(cx+o.x*sz,cy-o.y*sz,6,0,Math.PI*2);oc.fill();oc.shadowBlur=0;oc.fillStyle='#dbe5f0b8';oc.font='11px ui-monospace';oc.fillText('P réelle : '+p.P.toFixed(p.P<20?3:1)+' j',12,18);oc.fillText('P audio : '+o.ap.toFixed(1)+' s',12,34)}function semiMajor(pl){let a=+pl.pl_orbsmax;if(isFinite(a)&&a>0)return a;let P=(+pl.pl_orbper||365.25)/365.25,M=+pl.st_mass||1;return Math.cbrt(M*P*P)}
 function systemMembers(){return currentSystem.filter(x=>selectedNames.has(x.pl_name)&&isFinite(+x.pl_orbper)&&+x.pl_orbper>0).sort((a,b)=>+a.pl_orbper-+b.pl_orbper)}
 function systemRadiusFactors(pls){let aa=pls.map(semiMajor),logs=aa.map(a=>Math.log10(Math.max(a,1e-6))),lo=Math.min(...logs),hi=Math.max(...logs);return logs.map(x=>hi===lo?1:.35+.65*(x-lo)/(hi-lo))}
 function drawSystem(pls,t){
   let{w,h}=fit(E.orbit,oc);oc.fillStyle='#060810';oc.fillRect(0,0,w,h);
   for(let i=0;i<60;i++){oc.fillStyle='#ffffff48';oc.fillRect((i*173)%w,(i*i*37)%h,1,1)}
-  let cx=w/2,cy=h/2,base=Math.min(w,h)*.34,factors=systemRadiusFactors(pls),states=[],gates=gateAngles();
+  let cx=w/2,cy=h/2,base=Math.min(w,h)*.34,factors=systemRadiusFactors(pls),states=[];
   pls.forEach((pl,i)=>{
     let pp=parFor(pl),ph=namePhase(pl.pl_name),oo=orb(t,pp,ph),sz=base*factors[i]/(1+pp.e);
     states.push({pl,pp,oo,f:factors[i]});
@@ -192,18 +461,6 @@ function drawSystem(pls,t){
     }
     oc.strokeStyle=`hsla(${195+i*31},80%,72%,${pl.pl_name===sel.pl_name?.62:.28})`;
     oc.lineWidth=pl.pl_name===sel.pl_name?1.6:1;oc.stroke();
-
-    // Note gates: fixed true-anomaly angles. The selected planet gets note labels.
-    gates.forEach(gate=>{
-      let r=(1-pp.e*pp.e)/(1+pp.e*Math.cos(gate.nu)),gx=cx+r*Math.cos(gate.nu)*sz,gy=cy-r*Math.sin(gate.nu)*Math.cos(pp.inc)*sz;
-      oc.fillStyle=pl.pl_name===sel.pl_name?'#f4f7ffbb':'#9fb7d255';
-      oc.beginPath();oc.arc(gx,gy,pl.pl_name===sel.pl_name?2.2:1.25,0,Math.PI*2);oc.fill();
-      if(pl.pl_name===sel.pl_name){
-        oc.fillStyle='#dbe5f0a8';oc.font='9px ui-monospace';
-        oc.fillText(frequencyLabel(planetGateFrequency(pl,gate)),gx+4,gy-3)
-      }
-    });
-
     let px=cx+oo.x*sz,py=cy-oo.y*sz;
     oc.fillStyle=`hsl(${195+i*31},85%,75%)`;oc.shadowBlur=9;oc.shadowColor=oc.fillStyle;
     oc.beginPath();oc.arc(px,py,pl.pl_name===sel.pl_name?5.8:4.2,0,Math.PI*2);oc.fill();oc.shadowBlur=0
@@ -212,160 +469,163 @@ function drawSystem(pls,t){
   g.addColorStop(0,'white');g.addColorStop(.28,scol);g.addColorStop(1,'rgba(0,0,0,0)');
   oc.fillStyle=g;oc.beginPath();oc.arc(cx,cy,24,0,Math.PI*2);oc.fill();
   oc.fillStyle='#dbe5f0b8';oc.font='11px ui-monospace';
-  oc.fillText(`${pls.length} planètes · les points sur les orbites déclenchent les notes`,12,18);
+  oc.fillText(`${pls.length} planètes · fréquence propre à chaque période orbitale`,12,18);
   return states
 }
 function drawS(p){let{w,h}=fit(E.spec,sc);sc.fillStyle='#060810';sc.fillRect(0,0,w,h);let v=[],mx=0;for(let i=0;i<w;i++){let u=i/(w-1),l=350*Math.pow(2500/350,u),y=planck(l,p.T);v.push(y);mx=Math.max(mx,y)}let gr=sc.createLinearGradient(0,0,w,0);gr.addColorStop(0,'#90caff');gr.addColorStop(.45,'#eee1b7');gr.addColorStop(1,'#d68b61');sc.beginPath();v.forEach((y,i)=>{let yy=h-14-y/mx*(h-34);i?sc.lineTo(i,yy):sc.moveTo(i,yy)});sc.strokeStyle=gr;sc.lineWidth=2;sc.stroke();sc.fillStyle='#dbe5f0b8';sc.font='11px ui-monospace';sc.fillText('Étoile · enveloppe de Planck '+Math.round(p.T)+' K',12,17)}
 function clamp(x,a=0,b=1){return Math.max(a,Math.min(b,x))}
-const PROGRESSION_PRESETS={
-  trance:['C4','E4','G3','B4','A4','G5','E4','D6'],
-  minor:['C4','Eb4','G4','Bb4','G4','Eb4','D4','G4'],
-  major:['C4','E4','G4','C5','B4','G4','E4','D4'],
-  suspended:['C4','F4','G4','D5','A4','G4','D4','F4'],
-  dorian:['D4','F4','A4','C5','B4','A4','F4','E4'],
-  pentatonic:['C4','D4','E4','G4','A4','G4','E4','D4'],
-  phrygian:['E4','F4','G4','B4','C5','B4','G4','F4']
-};
-function parseProgression(){
-  let raw=(E.noteProgression?.value||'').replace(/,/g,' ').trim();
-  let arr=raw.split(/\s+/).filter(Boolean).filter(n=>/^[A-Ga-g](?:#|b)?-?\d+$/.test(n));
-  return arr.length?arr:['C4','E4','G4','B4','A4','G4','E4','D4']
-}
-function noteFrequency(note){
-  let m=String(note).match(/^([A-Ga-g])(#|b)?(-?\d+)$/);if(!m)return 440;
-  let semis={C:0,D:2,E:4,F:5,G:7,A:9,B:11}[m[1].toUpperCase()];
-  if(m[2]==='#')semis++;if(m[2]==='b')semis--;
-  let midi=(+m[3]+1)*12+semis;
-  return 440*Math.pow(2,(midi-69)/12)
-}
-function periodPitchFactor(pl){
-  let P=+pl?.pl_orbper;
-  if(!isFinite(P)||P<=0)P=365.25;
-  return 365.25/P
-}
-function foldAudible(f,lo=110,hi=1760){
-  if(!isFinite(f)||f<=0)return 440;
-  while(f<lo)f*=2;
-  while(f>hi)f/=2;
-  return f
-}
-function planetGateFrequency(pl,gate){
-  return foldAudible(gate.freq*periodPitchFactor(pl))
-}
-function frequencyLabel(f){
-  if(!isFinite(f)||f<=0)return '—';
-  let midi=69+12*Math.log2(f/440),nearest=Math.round(midi),cents=Math.round((midi-nearest)*100);
-  let names=['C','C#','D','D#','E','F','F#','G','G#','A','A#','B'];
-  let name=names[((nearest%12)+12)%12]+(Math.floor(nearest/12)-1);
-  return name+(cents===0?'':` ${cents>0?'+':''}${cents}¢`)
-}
-function periodTransposeLabel(pl){
-  let P=+pl?.pl_orbper;if(!isFinite(P)||P<=0)return '—';
-  let semitones=12*Math.log2(365.25/P);
-  return `${semitones>=0?'+':''}${semitones.toFixed(1)} demi-tons`
-}
-function gateAngles(){
-  let notes=parseProgression(),off=(+E.angleOffset?.value||0)*Math.PI/180,N=notes.length;
-  return notes.map((note,i)=>({note,freq:noteFrequency(note),nu:((off+2*Math.PI*i/N)%(2*Math.PI)+2*Math.PI)%(2*Math.PI)}))
-}
-function trueToMean(nu,e){
-  let z=2*Math.atan2(Math.sqrt(1-e)*Math.sin(nu/2),Math.sqrt(1+e)*Math.cos(nu/2));
-  z=((z%(2*Math.PI))+2*Math.PI)%(2*Math.PI);
-  let M=z-e*Math.sin(z);return ((M%(2*Math.PI))+2*Math.PI)%(2*Math.PI)
-}
-const INSTRUMENT_NAMES={piano:'Piano',violin:'Violon',rave:'Synthé vénère',pluck:'Pluck',organ:'Orgue',glass:'Cloche / verre'};
-function instrumentName(){return INSTRUMENT_NAMES[E.instrumentStyle?.value]||'Piano'}
 function syncVolUI(){
   if(E.starVolVal)E.starVolVal.textContent=`${E.starVol.value}%`;
   if(E.planetVolVal)E.planetVolVal.textContent=`${E.planetVol.value}%`;
-  if(E.yearScaleVal)E.yearScaleVal.textContent=`1 an = ${E.yearScale.value} s`;
-  let n=parseProgression().length;
-  if(E.noteCountVal)E.noteCountVal.textContent=`${n} note${n>1?'s':''} · ${(360/n).toFixed(n>12?1:0)}°`;
-  if(E.periodPitchVal)E.periodPitchVal.textContent=sel?periodTransposeLabel(sel):'P → transposition';
-  if(E.angleOffsetVal)E.angleOffsetVal.textContent=`${E.angleOffset.value}°`;
-  if(E.instrumentVal)E.instrumentVal.textContent=instrumentName()
+  if(E.yearScaleVal){
+    E.yearScaleVal.textContent=`1 an = ${E.yearScale.value} s · ${timeScaleManual?'manuel':'auto'}`;
+    if(!timeScaleManual&&Number.isFinite(timeScaleFastPeriod)){
+      const pa=(+E.yearScale.value)*timeScaleFastPeriod/365.25;
+      E.yearScale.title=`Auto : P min = ${timeScaleFastPeriod.toFixed(timeScaleFastPeriod<10?3:2)} j → ${pa.toFixed(2)} s/orbite`
+    }else{
+      E.yearScale.title='Compression temporelle réglée manuellement'
+    }
+  }
 }
-function pitch(P){let f=220*365.25/P;while(f<110)f*=2;while(f>880)f/=2;return f}
+function pitch(P){
+  let f=220*365.25/(+P||365.25);
+  while(f<110)f*=2;
+  while(f>880)f/=2;
+  return f
+}
 function soundMap(p){
   let P=+p.pl_orbper||365.25;
   let mass=+p.pl_bmasse;
   if(!isFinite(mass)&&isFinite(+p.pl_bmassj))mass=+p.pl_bmassj*317.83;
   if(!isFinite(mass)||mass<=0)mass=1;
-  let radius=+p.pl_rade;
-  if(!isFinite(radius)&&isFinite(+p.pl_radj))radius=+p.pl_radj*11.209;
-  if(!isFinite(radius)||radius<=0)radius=1;
-  let density=+p.pl_dens;
-  if(!isFinite(density)||density<=0)density=5.514*mass/Math.pow(radius,3);
-  if(!isFinite(density)||density<=0)density=5.514;
-  let teq=+p.pl_eqt;if(!isFinite(teq)||teq<=0)teq=500;
-
-  // Logarithmic normalisations span roughly Moon/Earth-like bodies to hot Jupiters/brown-dwarf boundary.
-  let massNorm=clamp((Math.log10(mass)+1.3)/4.8);
-  let radiusNorm=clamp((Math.log10(radius)+0.35)/1.75);
-  let densityNorm=clamp((density-0.2)/12);
-  let tempNorm=clamp((Math.log10(teq)-Math.log10(120))/(Math.log10(3200)-Math.log10(120)));
-
-  // Mass controls loudness. Earth = 1x.
-  // Fourth-root compression keeps the physical ordering without letting
-  // giant planets completely drown out terrestrial planets.
   let massGain=clamp(Math.pow(mass,0.25),0.35,2.20);
 
-  return{
-    pitch:pitch(P),mass,radius,density,teq,massNorm,massGain,
-    timbreNorm:radiusNorm,
-    widthNorm:radiusNorm,
-    roughHz:2+30*densityNorm,
-    roughGain:0.015+0.10*densityNorm,
-    cutoff:700*Math.pow(18,tempNorm),
-    harmonicSlope:2.8-1.65*radiusNorm
-  }
+  // Eccentricity controls "dirt". sqrt compression keeps small but real
+  // eccentricities audible while strongly eccentric planets become much rougher.
+  let eccentricity=+p.pl_orbeccen;
+  let hasEcc=Number.isFinite(eccentricity)&&eccentricity>=0;
+  if(!hasEcc)eccentricity=0;
+  eccentricity=clamp(eccentricity,0,.9);
+  let dirt=clamp(Math.sqrt(eccentricity/.6));
+
+  return{pitch:pitch(P),mass,massGain,eccentricity,dirt,hasEcc}
 }
 function noise(ctx){let b=ctx.createBuffer(1,ctx.sampleRate*3,ctx.sampleRate),d=b.getChannelData(0);for(let i=0;i<d.length;i++)d[i]=Math.random()*2-1;return b}
 function makePanner(c){let p=c.createPanner();p.panningModel='HRTF';p.distanceModel='inverse';p.refDistance=1;p.rolloffFactor=.18;p.maxDistance=20;return p}
+function saturationCurve(amount=2.4){
+  const n=2048,curve=new Float32Array(n);
+  for(let i=0;i<n;i++){
+    const x=i*2/(n-1)-1;
+    curve[i]=Math.tanh(amount*x)/Math.tanh(amount)
+  }
+  return curve
+}
 function build(){
   let X=window.AudioContext||window.webkitAudioContext,c=new X();A.ctx=c;
-
-  // STAR: white noise through a Planck-weighted parallel filter bank.
   let n=c.createBufferSource();n.buffer=noise(c);n.loop=true;
   let sm=c.createGain();sm.gain.value=0;sm.connect(c.destination);
   [80,120,180,270,400,600,900,1350,2000,3000,4500,6800,10000,14000].forEach(f=>{
     let bp=c.createBiquadFilter();bp.type='bandpass';bp.frequency.value=f;bp.Q.value=1.15;
     let g=c.createGain();g.gain.value=.04;n.connect(bp).connect(g).connect(sm);A.filters.push(bp);A.gains.push(g)
   });n.start();
+  A.sm=sm
+}
+function setPan(pan,x,y,z,t){if(pan.positionX){pan.positionX.setTargetAtTime(x,t,.055);pan.positionY.setTargetAtTime(y,t,.055);pan.positionZ.setTargetAtTime(z,t,.055)}else pan.setPosition(x,y,z)}
+function wrapAngle(a){return Math.atan2(Math.sin(a),Math.cos(a))}
+function smoothSpatialDirection(v,x,y,z,t){
+  const r=Math.hypot(x,y,z)||1;
+  const az=Math.atan2(x,-z);                 // 0 = front, + = right
+  const el=Math.atan2(y,Math.hypot(x,z));   // + = above
 
-  // PLANET: legacy continuous bank. In note mode, mass controls loudness.
-  let bus=c.createGain();bus.gain.value=.12;
-  for(let nH=1;nH<=8;nH++){
-    let o=c.createOscillator(),g=c.createGain();o.type='sine';g.gain.value=0;
-    o.connect(g).connect(bus);o.start();A.harmonics.push(o);A.harmonicGains.push(g)
+  if(!v.spatialState){
+    v.spatialState={az,el,t};
+  }else{
+    const dt=Math.max(1/240,Math.min(.08,t-v.spatialState.t||1/60));
+    v.spatialState.t=t;
+
+    // HRTF motion is deliberately rate-limited. Very short-period planets can
+    // complete an orbit in a few hundredths of a second after time compression;
+    // following that literally makes the binaural image flip between ears.
+    const maxAzSpeed=2*Math.PI;      // at most one audible revolution / second
+    const maxElSpeed=Math.PI;        // vertical motion is slightly slower
+    const da=wrapAngle(az-v.spatialState.az);
+    const de=el-v.spatialState.el;
+    v.spatialState.az=wrapAngle(v.spatialState.az+clamp(da,-maxAzSpeed*dt,maxAzSpeed*dt));
+    v.spatialState.el=clamp(v.spatialState.el+clamp(de,-maxElSpeed*dt,maxElSpeed*dt),-Math.PI/2,Math.PI/2);
   }
 
-  // Close side-tone around the fundamental -> audible beating/roughness set by density.
-  let ro=c.createOscillator(),rg=c.createGain();ro.type='sine';rg.gain.value=0;ro.connect(rg).connect(bus);ro.start();
-
-  // Equilibrium temperature controls spectral brightness.
-  let lp=c.createBiquadFilter();lp.type='lowpass';lp.frequency.value=5000;lp.Q.value=.65;bus.connect(lp);
-
-  // Radius controls apparent source width: same signal rendered at three nearby HRTF positions.
-  let cg=c.createGain(),lg=c.createGain(),rgain=c.createGain();
-  let cp=makePanner(c),lpan=makePanner(c),rpan=makePanner(c);
-  lp.connect(cg).connect(cp).connect(c.destination);
-  lp.connect(lg).connect(lpan).connect(c.destination);
-  lp.connect(rgain).connect(rpan).connect(c.destination);
-  cg.gain.value=0;lg.gain.value=0;rgain.gain.value=0;
-
-  Object.assign(A,{sm,planetBus:bus,planetLP:lp,roughOsc:ro,roughGain:rg,centerPan:cp,leftPan:lpan,rightPan:rpan,centerGain:cg,leftGain:lg,rightGain:rgain})
+  const h=r*Math.cos(v.spatialState.el);
+  return{
+    x:h*Math.sin(v.spatialState.az),
+    y:r*Math.sin(v.spatialState.el),
+    z:-h*Math.cos(v.spatialState.az)
+  }
 }
-function setPan(pan,x,y,z,t){if(pan.positionX){pan.positionX.setTargetAtTime(x,t,.02);pan.positionY.setTargetAtTime(y,t,.02);pan.positionZ.setTargetAtTime(z,t,.02)}else pan.setPosition(x,y,z)}
-function clearSystemVoices(){A.systemVoices=[];A.systemPlanets=[]}
-function createSystemVoice(pl){return{pl,snd:soundMap(pl),prevU:null}}
+function widenDirection(x,y,z){
+  return{x,y,z}
+}
+function clearSystemVoices(){
+  if(A.ctx){
+    A.systemVoices.forEach(v=>{
+      try{v.gain.gain.setTargetAtTime(0,A.ctx.currentTime,.02)}catch(e){}
+      (v.oscs||[]).forEach(o=>{try{o.stop(A.ctx.currentTime+.05)}catch(e){}});
+      setTimeout(()=>{
+        try{
+          (v.oscs||[]).forEach(o=>o.disconnect());
+          (v.oscGains||[]).forEach(g=>g.disconnect());
+          v.mix?.disconnect();v.filter?.disconnect();v.drive?.disconnect();
+          v.gain?.disconnect();v.pan?.disconnect()
+        }catch(e){}
+      },100)
+    })
+  }
+  A.systemVoices=[];A.systemPlanets=[]
+}
+function createSystemVoice(pl){
+  const c=A.ctx,snd=soundMap(pl),f=snd.pitch,d=snd.dirt;
+  const mix=c.createGain(),filter=c.createBiquadFilter(),drive=c.createWaveShaper(),gain=c.createGain(),pan=makePanner(c);
+
+  mix.gain.value=.72;
+
+  // e -> resonance + saturation.
+  filter.type='lowpass';
+  filter.frequency.value=Math.min(7600,Math.max(1000,f*(13-4*d)));
+  filter.Q.value=1.4+7.2*d;
+  drive.curve=saturationCurve(1.15+5.4*d);
+  drive.oversample='4x';
+  gain.gain.value=0;
+
+  // The fundamental remains f(P). Eccentricity only changes the timbre:
+  // - larger saw detuning => rougher beating
+  // - stronger irrational partials => more metallic
+  // - stronger distortion/resonance => more dirt
+  const det=2+26*d;
+  const defs=[
+    {type:'sawtooth',ratio:1,detune:-det,level:.30},
+    {type:'sawtooth',ratio:1,detune: det,level:.30},
+    {type:'square',ratio:.5,detune:0,level:.075+.035*d},
+    {type:'sine',ratio:Math.SQRT2,detune:0,level:.010+.130*d},
+    {type:'sine',ratio:1+Math.SQRT2,detune:0,level:.006+.090*d},
+    {type:'sine',ratio:Math.PI,detune:0,level:.002+.042*d}
+  ];
+
+  const oscs=[],oscGains=[];
+  defs.forEach(def=>{
+    const o=c.createOscillator(),g=c.createGain();
+    o.type=def.type;o.frequency.value=f*def.ratio;o.detune.value=def.detune;g.gain.value=def.level;
+    o.connect(g).connect(mix);o.start();
+    oscs.push(o);oscGains.push(g)
+  });
+
+  mix.connect(filter).connect(drive).connect(gain).connect(pan).connect(c.destination);
+  return{pl,snd,oscs,oscGains,mix,filter,drive,gain,pan,defs}
+}
 function startSystem(){
   clearSystemVoices();A.systemPlanets=systemMembers();
   if(!A.systemPlanets.length){A.systemOn=false;updateSelectionButton();return}
   A.systemVoices=A.systemPlanets.map(createSystemVoice);A.systemOn=true;
   E.systemListen.textContent='■ Arrêter la sélection';
-  let n=parseProgression().length;
-  E.astate.textContent=`${instrumentName()} · HRTF · ${A.systemPlanets.length} planète${A.systemPlanets.length>1?'s':''} · hauteur ∝ 1/P · volume ∝ M^(1/4)`
+  E.astate.textContent=''
 }
 function stopSystem(){
   if(A.ctx)A.sm?.gain.setTargetAtTime(0,A.ctx.currentTime,.03);
@@ -375,187 +635,98 @@ async function toggleSystem(){
   if(!A.ctx)build();if(A.ctx.state==='suspended')await A.ctx.resume();
   if(A.systemOn){stopSystem();return}if(A.on)stop();startSystem()
 }
-function updateStar(T,t){
-  let starVol=(+E.starVol.value||0)/100;A.sm.gain.setTargetAtTime(.07*starVol,t,.04);
+function heartbeatPulse(phase,start,attack,decay){
+  // phase and timings are expressed as fractions of one stellar rotation.
+  // This gives an asymmetric contraction: very fast rise, slower relaxation.
+  let u=(phase-start+1)%1;
+  if(u>.36)return 0;
+  let p=(1-Math.exp(-u/attack))*Math.exp(-u/decay);
+  // Normalise approximately so each pulse peaks close to 1.
+  return Math.min(1,p*1.72)
+}
+function stellarHeartbeat(phase){
+  // One stellar rotation = one cardiac cycle:
+  // BOUM (strong contraction), then boum (weaker contraction) shortly after.
+  const first=heartbeatPulse(phase,0.00,.010,.055);
+  const second=.72*heartbeatPulse(phase,.15,.012,.070);
+
+  // The stellar noise never disappears completely between contractions.
+  // Peaks are intentionally non-linear so the "boum-boum" remains perceptible.
+  return .24 + .92*first + .72*second
+}
+function updateStar(star,t){
+  const T=+star?.st_teff||5772;
+  const Prot=+star?.st_rotp;
+  const starVol=(+E.starVol.value||0)/100;
+
+  // Stellar rotation now drives a double heartbeat envelope rather than
+  // a sinusoidal AM. The accelerated clock remains identical to the orbits:
+  // P_rot,audio = yearSeconds() * P_rot(days) / 365.25.
+  let envelope=1;
+  if(Number.isFinite(Prot)&&Prot>0){
+    const phase=((simYears*365.25/Prot)%1+1)%1;
+    envelope=stellarHeartbeat(phase);
+  }
+  A.sm.gain.setTargetAtTime(.07*starVol*envelope,t,.012);
+
   let peak=2.897771955e6/T;
   A.filters.forEach((bp,i)=>{
     let af=bp.frequency.value,u=(Math.log(af)-Math.log(70))/(Math.log(14000)-Math.log(70)),lam=2500*Math.pow(350/2500,clamp(u)),w=Math.pow(planck(lam,T)/planck(Math.max(350,Math.min(2500,peak)),T),.55);
     A.gains[i].gain.setTargetAtTime(w*.16,t,.05)
   })
 }
-function makeDistortionCurve(amount=45){
-  let n=1024,curve=new Float32Array(n),deg=Math.PI/180;
-  for(let i=0;i<n;i++){let x=i*2/n-1;curve[i]=(3+amount)*x*20*deg/(Math.PI+amount*Math.abs(x))}
-  return curve
-}
-function playPlanetNote(v,st,gate,level,when){
-  let c=A.ctx,s=v.snd,pp=st.pp,playedFreq=planetGateFrequency(v.pl,gate),style=E.instrumentStyle?.value||'piano';
-
-  let bus=c.createGain(),filter=c.createBiquadFilter(),pan=makePanner(c);
-  filter.type='lowpass';filter.Q.value=.7;
-  bus.connect(filter).connect(pan).connect(c.destination);
-
-  // HRTF position at the exact orbital trigger angle.
-  let r=(1-pp.e*pp.e)/(1+pp.e*Math.cos(gate.nu));
-  let radial=.8+1.7*st.f,x=r*Math.cos(gate.nu)*radial,y=r*Math.sin(gate.nu)*Math.sin(pp.inc)*radial,z=-r*Math.sin(gate.nu)*Math.cos(pp.inc)*radial;
-  setPan(pan,x,y,z,when);
-
-  let planetBrightness=Math.max(500,Math.min(15000,s.cutoff));
-  let planetRes=.20+.38*s.widthNorm;
-  let peak=.16*level;
-  let nodes=[],sources=[],end=when+1;
-
-  function osc(type,freq,gain,start=when,stop=when+1,detune=0,dest=bus){
-    let o=c.createOscillator(),g=c.createGain();
-    o.type=type;o.frequency.setValueAtTime(freq,start);o.detune.setValueAtTime(detune,start);g.gain.setValueAtTime(gain,start);
-    o.connect(g).connect(dest);o.start(start);o.stop(stop);sources.push(o);nodes.push(g);end=Math.max(end,stop);return{o,g}
-  }
-  function env(g,attack,hold,release,max=peak,start=when){
-    g.gain.cancelScheduledValues(start);g.gain.setValueAtTime(.0001,start);
-    g.gain.exponentialRampToValueAtTime(Math.max(.0002,max),start+attack);
-    if(hold>0)g.gain.setValueAtTime(Math.max(.0002,max),start+attack+hold);
-    g.gain.exponentialRampToValueAtTime(.0001,start+attack+hold+release);
-    end=Math.max(end,start+attack+hold+release)
-  }
-
-  if(style==='piano'){
-    // Percussive additive synthesis: higher partials die faster.
-    filter.frequency.setValueAtTime(Math.min(14000,planetBrightness*1.3),when);
-    let dur=.75+.9*s.widthNorm;
-    env(bus,.003,0,dur,peak,when);
-    [[1,1],[2,.38],[3,.18],[4.03,.10],[5.06,.055],[6.12,.03]].forEach(([ratio,g],i)=>{
-      let o=c.createOscillator(),og=c.createGain();o.type=i<2?'sine':'triangle';
-      o.frequency.setValueAtTime(playedFreq*ratio,when);
-      og.gain.setValueAtTime(g*(1+.25*s.timbreNorm),when);
-      og.gain.exponentialRampToValueAtTime(.0001,when+dur*(1-.10*i));
-      o.connect(og).connect(bus);o.start(when);o.stop(when+dur+.08);sources.push(o);nodes.push(og);end=Math.max(end,when+dur+.1)
-    });
-    // short hammer noise
-    let nb=c.createBuffer(1,Math.max(1,Math.floor(c.sampleRate*.025)),c.sampleRate),d=nb.getChannelData(0);
-    for(let i=0;i<d.length;i++)d[i]=(Math.random()*2-1)*Math.exp(-i/(d.length*.22));
-    let ns=c.createBufferSource(),ng=c.createGain();ns.buffer=nb;ng.gain.value=.11;ns.connect(ng).connect(bus);ns.start(when);sources.push(ns);nodes.push(ng)
-  }else if(style==='violin'){
-    filter.type='lowpass';filter.frequency.setValueAtTime(Math.min(11000,planetBrightness),when);filter.Q.value=1.1;
-    let dur=.52+.55*s.widthNorm;env(bus,.075,.08,dur,peak*.82,when);
-    let lfo=c.createOscillator(),lg=c.createGain();lfo.frequency.value=5.4;lg.gain.value=8;
-    lfo.connect(lg);lfo.start(when);lfo.stop(when+dur+.25);sources.push(lfo);nodes.push(lg);
-    [-7,0,7].forEach((det,i)=>{
-      let o=c.createOscillator(),g=c.createGain();o.type='sawtooth';o.frequency.value=playedFreq;o.detune.value=det;g.gain.value=[.18,.38,.18][i];
-      lg.connect(o.detune);o.connect(g).connect(bus);o.start(when);o.stop(when+dur+.25);sources.push(o);nodes.push(g)
-    });
-  }else if(style==='rave'){
-    // Detuned saw/square stack -> resonant filter -> waveshaper.
-    let drive=c.createWaveShaper();drive.curve=makeDistortionCurve(70+80*s.timbreNorm);drive.oversample='4x';
-    bus.disconnect();bus.connect(filter).connect(drive).connect(pan).connect(c.destination);nodes.push(drive);
-    filter.Q.value=7+6*s.timbreNorm;
-    filter.frequency.setValueAtTime(Math.max(500,playedFreq*2),when);
-    filter.frequency.exponentialRampToValueAtTime(Math.min(15000,planetBrightness*1.6),when+.08);
-    filter.frequency.exponentialRampToValueAtTime(Math.max(650,playedFreq*1.4),when+.42);
-    let dur=.38+.25*s.widthNorm;env(bus,.004,.025,dur,peak*.72,when);
-    [-18,-7,0,7,18].forEach((det,i)=>osc(i===2?'square':'sawtooth',playedFreq,[.10,.13,.12,.13,.10][i],when,when+dur+.12,det));
-    osc('square',playedFreq/2,.08,when,when+dur+.12,0);
-  }else if(style==='pluck'){
-    filter.frequency.setValueAtTime(Math.min(12000,planetBrightness*1.2),when);filter.Q.value=1.8;
-    let dur=.18+.42*s.widthNorm;env(bus,.002,0,dur,peak,when);
-    osc('triangle',playedFreq,.8,when,when+dur+.08);
-    osc('sawtooth',playedFreq*2,.12+.12*s.timbreNorm,when,when+dur*.65);
-  }else if(style==='organ'){
-    filter.frequency.setValueAtTime(Math.min(13000,planetBrightness*1.4),when);
-    let dur=.55+.45*s.widthNorm;env(bus,.025,.16,dur,peak*.72,when);
-    [[1,.6],[2,.24],[3,.16],[4,.10],[6,.07]].forEach(([r0,g])=>osc('sine',playedFreq*r0,g,when,when+dur+.25));
-  }else if(style==='glass'){
-    filter.frequency.setValueAtTime(Math.min(15000,planetBrightness*1.7),when);filter.Q.value=.4;
-    let dur=1.0+1.15*s.widthNorm;env(bus,.002,0,dur,peak*.62,when);
-    [[1,1],[2.01,.32],[2.72,.24],[4.18,.13],[5.43,.08]].forEach(([r0,g],i)=>{
-      let o=c.createOscillator(),og=c.createGain();o.type='sine';o.frequency.value=playedFreq*r0;og.gain.value=g;
-      og.gain.exponentialRampToValueAtTime(.0001,when+dur*(1-.09*i));o.connect(og).connect(bus);o.start(when);o.stop(when+dur+.1);sources.push(o);nodes.push(og)
-    })
-  }
-
-  // Planet density remains a subtle physical signature as a close beating partial,
-  // except on the aggressive synth where the detuned stack already provides roughness.
-  if(style!=='rave'){
-    let det=Math.min(5,s.roughHz*.10),ro=c.createOscillator(),rg=c.createGain();
-    ro.type='sine';ro.frequency.setValueAtTime(playedFreq+det,when);rg.gain.value=.012+.018*clamp((s.density-.2)/12);
-    ro.connect(rg).connect(bus);ro.start(when);ro.stop(Math.max(when+.25,end));sources.push(ro);nodes.push(rg)
-  }
-
-  setTimeout(()=>{
-    try{sources.forEach(o=>{try{o.disconnect()}catch(e){}});nodes.forEach(n=>{try{n.disconnect()}catch(e){}});bus.disconnect();filter.disconnect();pan.disconnect()}catch(e){}
-  },Math.ceil((end-when+.35)*1000))
-}
 function updSystem(states){
   if(!A.ctx||!A.systemOn)return;
-  let t=A.ctx.currentTime,planetVol=(+E.planetVol.value||0)/100,N=Math.max(1,A.systemVoices.length),norm=1/Math.sqrt(N),gates=gateAngles();
-  updateStar((sel&&+sel.st_teff)||5772,t);
-
+  let t=A.ctx.currentTime,planetVol=(+E.planetVol.value||0)/100,N=Math.max(1,A.systemVoices.length),norm=1/Math.sqrt(N);
+  updateStar(sel||{},t);
   A.systemVoices.forEach((v,i)=>{
     let st=states[i];if(!st)return;
-    let curr=st.oo.U;
-    if(v.prevU===null||!isFinite(v.prevU)){v.prevU=curr;return}
-    if(curr<=v.prevU){v.prevU=curr;return}
-
-    let events=[];
-    gates.forEach(gate=>{
-      let Mk=trueToMean(gate.nu,st.pp.e),turn=Math.floor((v.prevU-Mk)/(2*Math.PI))+1,cross=Mk+turn*2*Math.PI,guard=0;
-      while(cross<=curr&&guard<24){
-        events.push({cross,gate,frac:(cross-v.prevU)/(curr-v.prevU)});
-        turn++;cross=Mk+turn*2*Math.PI;guard++
-      }
+    (v.oscs||[]).forEach((o,j)=>{
+      const ratio=v.defs?.[j]?.ratio||1;
+      o.frequency.setTargetAtTime(v.snd.pitch*ratio,t,.02)
     });
-    events.sort((a,b)=>a.cross-b.cross);
-    if(events.length>12)events=events.slice(-12); // protect against extreme time compression
-    events.forEach(ev=>playPlanetNote(v,st,ev.gate,planetVol*norm*v.snd.massGain,t+Math.max(0,Math.min(.04,ev.frac*.04))));
-    v.prevU=curr
+    if(v.filter)v.filter.frequency.setTargetAtTime(Math.min(7600,Math.max(1000,v.snd.pitch*(13-4*v.snd.dirt))),t,.04);
+    // Mass still controls only the final voice level.
+    v.gain.gain.setTargetAtTime(.085*planetVol*norm*v.snd.massGain,t,.03);
+    let radial=.8+1.7*st.f;
+    // Exoplanet inclination convention:
+    // i=0°  : face-on -> left/right + up/down, no front/back motion
+    // i=90° : edge-on -> left/right + front/back, no vertical orbital excursion
+    // Web Audio uses x=right, y=up, -z=front.
+    let x=st.oo.x*radial,y=st.oo.y*radial,z=-st.oo.z*radial;
+    const wide=widenDirection(x,y,z);
+    const smooth=smoothSpatialDirection(v,wide.x,wide.y,wide.z,t);
+    setPan(v.pan,smooth.x,smooth.y,smooth.z,t)
   })
 }
-function upd(p,o){
-  let t=A.ctx.currentTime,s=p.snd||soundMap(sel||demo[0]);
-
-  // --- Star timbre ---
-  let planetVol=(+E.planetVol.value||0)/100;
-  updateStar(p.T,t);
-
-  // --- Planet identity ---
-  // P -> fundamental; M -> amount of upper harmonics.
-  A.harmonics.forEach((osc,i)=>{
-    let n=i+1;
-    osc.frequency.setTargetAtTime(s.pitch*n,t,.025);
-    let g=n===1?0.62:Math.pow(n,-s.harmonicSlope)*(0.12+1.15*s.timbreNorm);
-    A.harmonicGains[i].gain.setTargetAtTime(g,t,.04)
-  });
-
-  // rho -> close beating frequency; Teq -> low-pass cutoff.
-  A.roughOsc.frequency.setTargetAtTime(s.pitch+s.roughHz,t,.025);
-  A.roughGain.gain.setTargetAtTime(s.roughGain,t,.04);
-  A.planetLP.frequency.setTargetAtTime(s.cutoff,t,.06);
-
-  // Rp -> spatial source size. A larger radius separates two faint HRTF copies laterally.
-  let x=o.x*2.2,y=o.z*2.2,z=-o.y*2.2;
-  let norm=Math.hypot(x,z)||1,px=-z/norm,pz=x/norm;
-  let spread=.06+.55*s.widthNorm;
-  let side=.015+.11*s.widthNorm;
-  let center=.075-.018*s.widthNorm;
-  A.centerGain.gain.setTargetAtTime(center*planetVol,t,.04);
-  A.leftGain.gain.setTargetAtTime(side*planetVol,t,.04);
-  A.rightGain.gain.setTargetAtTime(side*planetVol,t,.04);
-  setPan(A.centerPan,x,y,z,t);
-  setPan(A.leftPan,x+px*spread,y,z+pz*spread,t);
-  setPan(A.rightPan,x-px*spread,y,z-pz*spread,t)
-}
-async function toggle(){if(!A.ctx)build();if(A.ctx.state==='suspended')await A.ctx.resume();if(A.systemOn)stopSystem();A.on=!A.on;if(A.on){E.listen.textContent='■ Arrêter';E.astate.textContent='HRTF active · P→pitch · M→harmoniques · ρ→rugosité · T→brillance · R→largeur'}else stop()}
-function stop(){if(A.ctx){let t=A.ctx.currentTime;A.sm?.gain.setTargetAtTime(0,t,.03);A.centerGain?.gain.setTargetAtTime(0,t,.03);A.leftGain?.gain.setTargetAtTime(0,t,.03);A.rightGain?.gain.setTargetAtTime(0,t,.03)}A.on=false;E.listen.textContent='▶ Écouter cette planète';E.astate.textContent='Casque recommandé · HRTF'}E.listen.onclick=toggle;E.systemListen.onclick=toggleSystem;E.reset.onclick=()=>{simYears=0;lastSimTick=performance.now()/1000};
-function loop(){let now=performance.now()/1000,dt=Math.max(0,Math.min(.25,now-lastSimTick));lastSimTick=now;if(sel&&E.modal.classList.contains('open')){simYears+=dt/yearSeconds();let p=par(),pls=A.systemOn&&A.systemPlanets.length?A.systemPlanets:systemMembers();if(pls.length){let states=drawSystem(pls,now);if(A.systemOn)updSystem(states)}else{let o=orb(now,p);drawO(p,o)}drawS(p)}requestAnimationFrame(loop)}[E.search,E.classF,E.tempF,E.sort].forEach(x=>x.addEventListener(x===E.search?'input':'change',filter));[E.starVol,E.planetVol,E.yearScale,E.angleOffset].forEach(x=>x.addEventListener('input',syncVolUI));
-E.progressionStyle.addEventListener('change',()=>{
-  let key=E.progressionStyle.value;
-  if(key!=='custom'&&PROGRESSION_PRESETS[key])E.noteProgression.value=PROGRESSION_PRESETS[key].join(' ');
+function upd(p,o){}
+async function toggle(){if(!A.ctx)build();if(A.ctx.state==='suspended')await A.ctx.resume();if(A.systemOn)stopSystem();A.on=!A.on;if(A.on){E.listen.textContent='■ Arrêter';E.astate.textContent=''}else stop()}
+function stop(){if(A.ctx){let t=A.ctx.currentTime;A.sm?.gain.setTargetAtTime(0,t,.03);A.centerGain?.gain.setTargetAtTime(0,t,.03);A.leftGain?.gain.setTargetAtTime(0,t,.03);A.rightGain?.gain.setTargetAtTime(0,t,.03)}A.on=false;E.listen.textContent='▶ Écouter cette planète';E.astate.textContent=''}E.listen.onclick=toggle;E.systemListen.onclick=toggleSystem;E.reset.onclick=()=>{simYears=0;lastSimTick=performance.now()/1000};
+function loop(){let now=performance.now()/1000,dt=Math.max(0,Math.min(.25,now-lastSimTick));lastSimTick=now;if(sel&&E.modal.classList.contains('open')){simYears+=dt/yearSeconds();let p=par(),pls=A.systemOn&&A.systemPlanets.length?A.systemPlanets:systemMembers();if(pls.length){let states=drawSystem(pls,now);if(A.systemOn)updSystem(states)}else{let o=orb(now,p);drawO(p,o)}drawS(p)}requestAnimationFrame(loop)}[E.search,E.classF,E.tempF,E.sort].forEach(x=>x.addEventListener(x===E.search?'input':'change',()=>{filter();if(activeSystem&&E.modal.classList.contains('open'))updatePermalink()}));[E.starVol,E.planetVol].forEach(x=>x.addEventListener('input',()=>{syncVolUI();if(activeSystem)updatePermalink()}));
+E.yearScale.addEventListener('input',()=>{
+  timeScaleManual=true;
+  timeScaleFastPeriod=fastestAudiblePeriod();
   syncVolUI();
+  if(activeSystem)updatePermalink()
+});E.allPlanets.addEventListener('click',()=>{currentSystem.forEach(p=>selectedNames.add(p.pl_name));if(!timeScaleManual)applyAdaptiveTimeScale(true);renderPicker();updatePermalink();if(A.systemOn){stopSystem();startSystem()}});E.noPlanets.addEventListener('click',()=>{selectedNames.clear();if(!timeScaleManual)applyAdaptiveTimeScale(true);renderPicker();updatePermalink();if(A.systemOn)stopSystem()});E.prevSystem.onclick=()=>navigateSystem(-1);
+E.nextSystem.onclick=()=>navigateSystem(1);
+window.addEventListener('popstate',async()=>{
+  const p=new URLSearchParams(location.search),host=p.get('system');
+  if(host){
+    restoreSoundControlsFromURL();filter();
+    const norm=s=>String(s||'').trim().toLocaleLowerCase();
+    const sys=systems.find(s=>s.hostname===host)||systems.find(s=>norm(s.hostname)===norm(host));
+    if(sys)await openSystem(sys,true)
+  }else if(E.modal.classList.contains('open')){
+    close()
+  }
 });
-E.noteProgression.addEventListener('input',()=>{
-  let current=parseProgression().join(' ');
-  let match=Object.entries(PROGRESSION_PRESETS).find(([k,v])=>v.join(' ')===current);
-  E.progressionStyle.value=match?match[0]:'custom';
-  syncVolUI()
+document.addEventListener('keydown',e=>{
+  if(!E.modal.classList.contains('open'))return;
+  const tag=(e.target?.tagName||'').toUpperCase();
+  if(['INPUT','TEXTAREA','SELECT'].includes(tag))return;
+  if(e.key==='ArrowLeft'){e.preventDefault();navigateSystem(-1)}
+  if(e.key==='ArrowRight'){e.preventDefault();navigateSystem(1)}
 });
-E.instrumentStyle.addEventListener('change',()=>{syncVolUI();if(sel)renderPlanetDetail()});E.allPlanets.addEventListener('click',()=>{currentSystem.forEach(p=>selectedNames.add(p.pl_name));renderPicker();if(A.systemOn){stopSystem();startSystem()}});E.noPlanets.addEventListener('click',()=>{selectedNames.clear();renderPicker();if(A.systemOn)stopSystem()});syncVolUI();E.more.onclick=more;load();loop()})();
+syncVolUI();E.more.onclick=more;load();loop()})();
 </script></body></html>
